@@ -1,0 +1,9 @@
+{
+  "name": "Yakkala",
+  "id": "yakkala",
+  "designer": ["Mooniak"],
+  "scripts": ["Latn"],
+  "description": "",
+  "license": "OFL-1.1",
+  "channels": ["release", "dev", "nightly"]
+}

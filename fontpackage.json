@@ -1,9 +1,93 @@
 {
   "name": "Galle",
-  "id": "Galle",
-  "designer": ["Mooniak"],
-  "scripts": ["Latn"],
-  "description": "",
+  "id": "galle",
+  "type": "family",
+  "designer": [
+    "Mooniak"
+  ],
+  "scripts": [
+    "Sinh",
+    "Latn"
+  ],
+  "description": "A font based on the typefaces used by the Dutch Press in Ceylon.",
   "license": "OFL-1.1",
-  "channels": ["release", "dev", "nightly"]
+  "channels": [
+    "release",
+    "dev",
+    "nightly"
+  ],
+  "versions_provider": "tags",
+  "repository": {
+    "url": "https://github.com/mooniak/galle-font",
+    "type": "git"
+  },
+  "homepage_url": "https://src.mooniak.com/galle-font/",
+  "issues_url": "https://github.com/mooniak/galle-font/issues/",
+  "funding_url": "https://opencollective.com/akuruxyz/projects/lanka-font-library",
+  "foundry": {
+    "name": "mooniak",
+    "email": "hello@mooniak.com",
+    "url": "https://mooniak.com/",
+    "vendor_id": "MNIK"
+  },
+  "designers": [
+    {
+      "name": "Janaka CB Attanayake",
+      "email": "janaka@akuru.xyz",
+      "url": ""
+    },
+    {
+      "name": "Rajitha Manamperi",
+      "email": "rajitha@mooniak.com",
+      "url": ""
+    }
+  ],
+  "maintenance": {
+    "status": "actively-developed",
+    "comment": "Rebuilt from fontpackage.toml; previous fontpackage.json was a stub (id 'Galle', scripts Latn, no metadata). Fixed issues_url which pointed at abhaya-libre-font. Progress metrics need assessment."
+  },
+  "tools": "Glyphs",
+  "progress": {
+    "design": 0,
+    "family_styles": 0,
+    "character_set": 0,
+    "drawing_quality": 0,
+    "spacing": 0,
+    "kerning": 0,
+    "hinting": 0,
+    "opentype_features": 0
+  },
+  "tags": {
+    "style": "text",
+    "contrast": "medium",
+    "width": "normal",
+    "body_height": "normal",
+    "intended_usage": "text",
+    "figures": "normal",
+    "languages": [
+      "si_LK",
+      "en_US"
+    ],
+    "related_fonts": []
+  },
+  "directory": {
+    "listed": true,
+    "display_texts": {
+      "en_US": "",
+      "si_LK": ""
+    },
+    "display_images": {
+      "banner": "",
+      "thumbnail": "",
+      "small": "",
+      "medium": "",
+      "large": ""
+    },
+    "links": {
+      "font_in_use": "",
+      "googlefonts": "",
+      "fontlibrary_org": "",
+      "typekit": ""
+    }
+  }
 }

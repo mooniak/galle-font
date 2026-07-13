@@ -523,6 +523,12 @@ code = "	lookup ss_01 {
   sub sinNya sinMatraAae by sinNyAee.ss01;
   sub sinNya sinMatraAe by sinNyAe.ss01;
 } ss_01;";
+labels = (
+{
+language = dflt;
+value = "";
+}
+);
 tag = ss01;
 }
 );

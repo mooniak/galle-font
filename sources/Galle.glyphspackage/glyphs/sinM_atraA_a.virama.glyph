@@ -12,7 +12,7 @@ ref = sinVirama;
 ref = sinMatraAa;
 }
 );
-width = 419;
+width = 249;
 }
 );
 }

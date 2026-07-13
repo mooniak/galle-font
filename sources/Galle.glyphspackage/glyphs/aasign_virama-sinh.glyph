@@ -1,0 +1,18 @@
+{
+glyphname = "aasign_virama-sinh";
+layers = (
+{
+layerId = "F0029E70-666A-46B3-82F3-BCA8DA6C0FED";
+shapes = (
+{
+pos = (64,0);
+ref = "virama-sinh";
+},
+{
+ref = "aasign-sinh";
+}
+);
+width = 419;
+}
+);
+}

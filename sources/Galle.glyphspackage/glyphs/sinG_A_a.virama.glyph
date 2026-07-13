@@ -6,10 +6,10 @@ layerId = "F0029E70-666A-46B3-82F3-BCA8DA6C0FED";
 shapes = (
 {
 pos = (451,0);
-ref = sinVirama;
+ref = "virama-sinh";
 },
 {
-ref = sinGAa;
+ref = "gAa-sinh";
 }
 );
 width = 616;

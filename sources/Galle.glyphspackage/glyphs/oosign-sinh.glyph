@@ -1,0 +1,24 @@
+{
+glyphname = "oosign-sinh";
+layers = (
+{
+layerId = "F0029E70-666A-46B3-82F3-BCA8DA6C0FED";
+shapes = (
+{
+pos = (300,0);
+ref = "aasign-sinh";
+},
+{
+pos = (375,0);
+ref = "virama-sinh";
+},
+{
+pos = (-1,0);
+ref = "esign-sinh";
+}
+);
+width = 506;
+}
+);
+unicode = 3549;
+}

@@ -63,7 +63,7 @@ nodes = (
 );
 },
 {
-ref = sinNAa;
+ref = "nAa-sinh";
 }
 );
 width = 667;

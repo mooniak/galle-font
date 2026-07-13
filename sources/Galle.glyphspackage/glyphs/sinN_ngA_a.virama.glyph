@@ -63,7 +63,7 @@ nodes = (
 );
 },
 {
-ref = sinNngAa;
+ref = "nngAa-sinh";
 }
 );
 width = 687;

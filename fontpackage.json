@@ -1,0 +1,9 @@
+{
+  "name": "Galle",
+  "id": "Galle",
+  "designer": ["Mooniak"],
+  "scripts": ["Latn"],
+  "description": "",
+  "license": "OFL-1.1",
+  "channels": ["release", "dev", "nightly"]
+}

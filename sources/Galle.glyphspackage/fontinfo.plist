@@ -1,6 +1,16 @@
 {
 .appVersion = "3260";
 .formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+},
+{
+name = Width;
+tag = wdth;
+}
+);
 customParameters = (
 {
 name = fsType;
@@ -14,6 +24,10 @@ value = 0;
 {
 name = "Write DisplayStrings";
 value = 0;
+},
+{
+name = vendorID;
+value = MNIK;
 }
 );
 date = "2018-08-28 08:37:35 +0000";
@@ -496,6 +510,10 @@ tag = ss01;
 );
 fontMaster = (
 {
+axesValues = (
+100,
+100
+);
 customParameters = (
 {
 name = "Alignment Zones";
@@ -514,10 +532,13 @@ over = 15;
 pos = 553;
 },
 {
+over = 0;
 },
 {
+over = 0;
 },
 {
+over = 0;
 },
 {
 over = -15;
@@ -1402,6 +1423,8 @@ instanceInterpolations = {
 name = Regular;
 }
 );
+kerningLTR = {
+};
 metrics = (
 {
 type = ascender;
@@ -1449,7 +1472,7 @@ value = "Janaka CB Attanayake, Rajitha Manamperi";
 },
 {
 key = designerURL;
-value = "http://mooniak.com/";
+value = "http://www.mooniak.com/";
 },
 {
 key = licenses;
@@ -1494,6 +1517,8 @@ settings = {
 disablesAutomaticAlignment = 1;
 disablesNiceNames = 1;
 };
+stems = (
+);
 unitsPerEm = 1000;
 userData = {
 UFO.lib = {
@@ -1533,89 +1558,89 @@ LithThree = uni0DE9;
 LithTwo = uni0DE8;
 LithZero = uni0DE6;
 NULL = .null;
+"a-sinh" = uni0D85;
+"aa-sinh" = uni0D86;
+"aae-sinh" = uni0D88;
+"aaesign-sinh" = uni0DD1;
+"aasign-sinh" = uni0DCF;
+"ae-sinh" = uni0D87;
+"aesign-sinh" = uni0DD0;
+"ai-sinh" = uni0D93;
+"aisign-sinh" = uni0DDB;
 anusvara = uni0D82;
+"au-sinh" = uni0D96;
+"ausign-sinh" = uni0DDE;
+"ba-sinh" = uni0DB6;
+"bha-sinh" = uni0DB7;
+"ca-sinh" = uni0DA0;
+"cha-sinh" = uni0DA1;
+"da-sinh" = uni0DAF;
+"dda-sinh" = uni0DA9;
+"ddha-sinh" = uni0DAA;
+"dha-sinh" = uni0DB0;
 dottedcircle = uni25CC;
-a-sinh = uni0D85;
-aa-sinh = uni0D86;
-aae-sinh = uni0D88;
-ae-sinh = uni0D87;
-ai-sinh = uni0D93;
-au-sinh = uni0D96;
-ba-sinh = uni0DB6;
-bha-sinh = uni0DB7;
-ca-sinh = uni0DA0;
-cha-sinh = uni0DA1;
-da-sinh = uni0DAF;
-dda-sinh = uni0DA9;
-ddha-sinh = uni0DAA;
-dha-sinh = uni0DB0;
-e-sinh = uni0D91;
-ee-sinh = uni0D92;
-fa-sinh = uni0DC6;
-ga-sinh = uni0D9C;
-gha-sinh = uni0D9D;
-ha-sinh = uni0DC4;
-i-sinh = uni0D89;
-ii-sinh = uni0D8A;
-ja-sinh = uni0DA2;
-jha-sinh = uni0DA3;
-jnya-sinh = uni0DA5;
-ka-sinh = uni0D9A;
-kha-sinh = uni0D9B;
-la-sinh = uni0DBD;
-lla-sinh = uni0DC5;
-ma-sinh = uni0DB8;
-aasign-sinh = uni0DCF;
-aaesign-sinh = uni0DD1;
-aesign-sinh = uni0DD0;
-aisign-sinh = uni0DDB;
-ausign-sinh = uni0DDE;
-esign-sinh = uni0DD9;
-eesign-sinh = uni0DDA;
-isign-sinh = uni0DD2;
-iisign-sinh = uni0DD3;
-vocaliclsign-sinh = uni0DF3;
-vocalicllsign-sinh = uni0DDF;
-osign-sinh = uni0DDC;
-oosign-sinh = uni0DDD;
-vocalicrsign-sinh = uni0DD8;
-vocalicrrsign-sinh = uni0DF2;
-usign-sinh = uni0DD4;
-uusign-sinh = uni0DD6;
-mba-sinh = uni0DB9;
-na-sinh = uni0DB1;
-nda-sinh = uni0DB3;
-nyja-sinh = uni0DA6;
-nga-sinh = uni0D9E;
-nna-sinh = uni0DAB;
-nndda-sinh = uni0DAC;
-nnga-sinh = uni0D9F;
-nya-sinh = uni0DA4;
-o-sinh = uni0D94;
-oo-sinh = uni0D95;
-pa-sinh = uni0DB4;
-pha-sinh = uni0DB5;
-ra-sinh = uni0DBB;
-sa-sinh = uni0DC3;
-sha-sinh = uni0DC1;
-ssa-sinh = uni0DC2;
-ta-sinh = uni0DAD;
-tha-sinh = uni0DAE;
-tta-sinh = uni0DA7;
-ttha-sinh = uni0DA8;
-u-sinh = uni0D8B;
-uu-sinh = uni0D8C;
-va-sinh = uni0DC0;
-virama-sinh = uni0DCA;
-ya-sinh = uni0DBA;
+"e-sinh" = uni0D91;
+"ee-sinh" = uni0D92;
+"eesign-sinh" = uni0DDA;
+"esign-sinh" = uni0DD9;
+"fa-sinh" = uni0DC6;
+"ga-sinh" = uni0D9C;
+"gha-sinh" = uni0D9D;
+"ha-sinh" = uni0DC4;
+"i-sinh" = uni0D89;
+"ii-sinh" = uni0D8A;
+"iisign-sinh" = uni0DD3;
+"isign-sinh" = uni0DD2;
+"ja-sinh" = uni0DA2;
+"jha-sinh" = uni0DA3;
+"jnya-sinh" = uni0DA5;
+"ka-sinh" = uni0D9A;
+"kha-sinh" = uni0D9B;
 kunddaliya.alt = uni0DF4;
-vocalicl-sinh = uni0D8F;
-vocalicll-sinh = uni0D90;
-vocalicr-sinh = uni0D8D;
-vocalicrr-sinh = uni0D8E;
+"la-sinh" = uni0DBD;
+"lla-sinh" = uni0DC5;
+"ma-sinh" = uni0DB8;
+"mba-sinh" = uni0DB9;
+"na-sinh" = uni0DB1;
+"nda-sinh" = uni0DB3;
+"nga-sinh" = uni0D9E;
+"nna-sinh" = uni0DAB;
+"nndda-sinh" = uni0DAC;
+"nnga-sinh" = uni0D9F;
+"nya-sinh" = uni0DA4;
+"nyja-sinh" = uni0DA6;
+"o-sinh" = uni0D94;
+"oo-sinh" = uni0D95;
+"oosign-sinh" = uni0DDD;
+"osign-sinh" = uni0DDC;
+"pa-sinh" = uni0DB4;
+"pha-sinh" = uni0DB5;
+"ra-sinh" = uni0DBB;
+"sa-sinh" = uni0DC3;
+"sha-sinh" = uni0DC1;
+"ssa-sinh" = uni0DC2;
+"ta-sinh" = uni0DAD;
+"tha-sinh" = uni0DAE;
 tmKa = uni0B95;
 tmTa = uni0BA4;
+"tta-sinh" = uni0DA7;
+"ttha-sinh" = uni0DA8;
+"u-sinh" = uni0D8B;
+"usign-sinh" = uni0DD4;
+"uu-sinh" = uni0D8C;
+"uusign-sinh" = uni0DD6;
+"va-sinh" = uni0DC0;
+"virama-sinh" = uni0DCA;
 visarga = uni0D83;
+"vocalicl-sinh" = uni0D8F;
+"vocalicll-sinh" = uni0D90;
+"vocalicllsign-sinh" = uni0DDF;
+"vocaliclsign-sinh" = uni0DF3;
+"vocalicr-sinh" = uni0D8D;
+"vocalicrr-sinh" = uni0D8E;
+"vocalicrrsign-sinh" = uni0DF2;
+"vocalicrsign-sinh" = uni0DD8;
+"ya-sinh" = uni0DBA;
 zerowidthjoiner = uni200D;
 zwnj = uni200C;
 };

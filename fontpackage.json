@@ -11,6 +11,7 @@
   ],
   "description": "A font based on the typefaces used by the Dutch Press in Ceylon.",
   "license": "OFL-1.1",
+  "tier": "free",
   "channels": [
     "canary",
     "dev"

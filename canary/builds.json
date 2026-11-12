@@ -1,0 +1,44 @@
+[
+ {
+  "family": "Galle",
+  "commit": "c5a22833961855530d3f8b3d390f2943836af671",
+  "commit_short": "c5a2283",
+  "version": "0.060",
+  "generated_at": "2026-11-12T11:03:43Z",
+  "stage": {
+   "n": 10,
+   "name": "Long tail and polish",
+   "cumulative": 110,
+   "total": 110,
+   "gate_met": true,
+   "kernel_checkable_complete": true,
+   "kernel_complete": null,
+   "unverified_kernel_entries": [
+    "classic-conjuncts",
+    "conjunct-i-forms",
+    "ksha",
+    "rakaransaya",
+    "repaya",
+    "yansaya"
+   ]
+  },
+  "qa": {
+   "profile": "googlefonts",
+   "verdict": "fail",
+   "pass_rate": 63,
+   "counts": {
+    "ERROR": 1,
+    "FAIL": 14,
+    "WARN": 22,
+    "SKIP": 86,
+    "INFO": 11,
+    "PASS": 83
+   },
+   "total_checks": 217
+  },
+  "run_url": "https://github.com/mooniak/galle-font/actions/runs/43205673775",
+  "ref_name": "dev",
+  "channel": "canary",
+  "repository": "mooniak/galle-font"
+ }
+]

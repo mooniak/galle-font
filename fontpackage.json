@@ -3,11 +3,10 @@
   "id": "galle",
   "type": "family",
   "designer": [
-    "Mooniak"
+    "Janaka Attanayake"
   ],
   "scripts": [
-    "Sinh",
-    "Latn"
+    "Sinh"
   ],
   "description": "A font based on the typefaces used by the Dutch Press in Ceylon.",
   "license": "OFL-1.1",
@@ -33,7 +32,7 @@
   "designers": [
     {
       "name": "Janaka CB Attanayake",
-      "email": "janaka@akuru.xyz",
+      "email": "",
       "url": ""
     },
     {

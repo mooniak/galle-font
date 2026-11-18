@@ -1,5 +1,24 @@
 # Galle Fonts; Reviving typefaces of the Dutch Press in Ceylon
 
+[![Build][badge-build]][link-build]
+[![Fontspector QA][badge-qa]][link-qa]
+[![Release][badge-release]][link-release]
+[![License: OFL 1.1][badge-license]][link-license]
+
+[badge-build]: https://github.com/mooniak/galle-font/actions/workflows/build.yaml/badge.svg?branch=dev
+[badge-qa]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fsrc.mooniak.com%2Fgalle-font%2Fbuild.json&query=%24.qa.pass_rate&suffix=%25&label=fontspector%20QA%20(dev%20build)&color=informational
+[badge-release]: https://img.shields.io/github/v/release/mooniak/galle-font?label=release
+[badge-license]: https://img.shields.io/badge/license-OFL--1.1-green
+[link-build]: https://github.com/mooniak/galle-font/actions/workflows/build.yaml
+[link-qa]: https://src.mooniak.com/galle-font/reports/fontspector/fontspector-report.html
+[link-release]: https://github.com/mooniak/galle-font/releases
+[link-license]: OFL.txt
+
+Galle is a Sinhala typeface (Sinh) based on the typefaces used by the Dutch Press in Ceylon, drawn by Janaka Attanayake and Rajitha Manamperi. It is published by [Mooniak](https://mooniak.com/) as a free font under the SIL Open Font License, as part of the Dutch-Sri Lankan shared typography heritage project.
+
+![Galle specimen](documentation/image1.png)
+![Galle character set](documentation/image2.png)
+
 The central repository for the fonts from Dutch-Sri Lankan shared typography heritage project; reviving the typefaces from the Dutch Press in Ceylon (1730–1796). This is a collaborative project managed by Mooniak.
 
 

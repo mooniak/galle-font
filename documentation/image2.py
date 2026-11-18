@@ -13,10 +13,11 @@ from fontTools.misc.fixedTools import floatToFixedToStr
 import subprocess
 import sys
 import argparse
+import glob
 
 # Constants, these are the main "settings" for the image
 WIDTH, HEIGHT, MARGIN, FRAMES = 2048, 2048, 128, 1
-FONT_PATH = "fonts/ttf/Galle-Regular.ttf"
+FONT_PATH = (sorted(glob.glob("fonts/ttf/*.ttf")) or sorted(glob.glob("fonts/variable/*.ttf")))[0]
 FONT_LICENSE = "OFL v1.1"
 AUXILIARY_FONT = "Inconsolata"
 AUXILIARY_FONT_SIZE = 48
@@ -26,8 +27,8 @@ LINE_ONE = "අආඇඈඉඊඋඌඍඎඏඐ "
 LINE_TWO = "එඒඓඔඕඖකඛගඝඞඟච"
 LINE_THREE = "ඡජඣඤඥඦටඨඩඪණඬත"
 LINE_FOUR = "ථදධනඳපඵබභමඹයරලවශ"
-LINE_FIVE = "ෂසහළෆ෴Hagkmnp"
-LINE_SIX = ",.;:!@#$%^&*(){}[]"
+LINE_FIVE = "ෂසහළෆ 0123456789"
+LINE_SIX = ",.;:!#*()[]"
 
 
 BIG_TEXT_FONT_SIZE = 200
@@ -50,7 +51,7 @@ ttFont = TTFont(FONT_PATH)
 # Constants that are worked out dynamically
 MY_URL = subprocess.check_output("git remote get-url origin", shell=True).decode()
 MY_HASH = subprocess.check_output("git rev-parse --short HEAD", shell=True).decode()
-FONT_NAME = ttFont["name"].getDebugName(4)
+FONT_NAME = "Galle Regular"
 FONT_VERSION = "v%s" % floatToFixedToStr(ttFont["head"].fontRevision, 16)
 
 

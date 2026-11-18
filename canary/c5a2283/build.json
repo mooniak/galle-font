@@ -1,0 +1,106 @@
+{
+  "id": "galle",
+  "family": "Galle",
+  "scripts": [
+    "Sinh",
+    "Latn"
+  ],
+  "version": "0.060",
+  "channel": "canary",
+  "commit": "c5a22833961855530d3f8b3d390f2943836af671",
+  "commit_short": "c5a2283",
+  "ref_name": "dev",
+  "repository": "mooniak/galle-font",
+  "run_url": "https://github.com/mooniak/galle-font/actions/runs/43205673775",
+  "actor": "pathumego",
+  "generated_at": "2026-11-12T11:03:43Z",
+  "qa": {
+    "profile": "googlefonts",
+    "verdict": "fail",
+    "pass_rate": 63,
+    "counts": {
+      "ERROR": 1,
+      "FAIL": 14,
+      "WARN": 22,
+      "SKIP": 86,
+      "INFO": 11,
+      "PASS": 83
+    },
+    "total_checks": 217
+  },
+  "stage": {
+    "n": 10,
+    "name": "Long tail and polish",
+    "cumulative": 110,
+    "total": 110,
+    "gate_met": true,
+    "kernel_checkable_complete": true,
+    "kernel_complete": null,
+    "unverified_kernel_entries": [
+      "classic-conjuncts",
+      "conjunct-i-forms",
+      "ksha",
+      "rakaransaya",
+      "repaya",
+      "yansaya"
+    ]
+  },
+  "files": [
+    {
+      "path": "fonts/otf/GalleDEVCANARY-Regular.otf",
+      "format": "otf",
+      "bytes": 95100,
+      "sha256": "ae7f80265f81624bcbb27da8a4e1ef9ae19334c596653faad1d45810339da609",
+      "style": "Regular",
+      "kind": "static"
+    },
+    {
+      "path": "fonts/ttf/GalleDEVCANARY-Regular.ttf",
+      "format": "ttf",
+      "bytes": 358984,
+      "sha256": "6eb562a85900fa01301bd15ef00724f6af58ef07d5c05e867c560a9fe42c330b",
+      "style": "Regular",
+      "kind": "static"
+    },
+    {
+      "path": "fonts/webfonts/GalleDEVCANARY-Regular.woff2",
+      "format": "woff2",
+      "bytes": 94392,
+      "sha256": "25232ceda644d8d8f85f4c53c343ea45830eaf8994ec11ac6e8827dc19fad987",
+      "style": "Regular",
+      "kind": "static"
+    }
+  ],
+  "proof_gate": {
+    "stage": 10,
+    "gated": true,
+    "shown": [
+      "classical-texts",
+      "conjuncts",
+      "devanagari-pangram",
+      "display-strings",
+      "indo-arabic-numerals",
+      "kern-pairs",
+      "libreoffice-ui-strings",
+      "marks",
+      "mixed-script",
+      "multiscript",
+      "numerals",
+      "ot-features",
+      "pali-and-sanskrit-words",
+      "prose",
+      "punctuation",
+      "rakar",
+      "shape-groups",
+      "signs-combinations",
+      "sinhala-alphabet",
+      "sinhala-pangram",
+      "spacing_strings",
+      "structured-texts",
+      "tamil-pangram",
+      "test-texts-stages"
+    ],
+    "withheld": [],
+    "missing_for_next": []
+  }
+}

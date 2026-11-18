@@ -588,6 +588,7 @@ notdef,
 "yU_repha-sinh",
 "yUu-sinh",
 "yUu_repha-sinh",
+"nyaa._c-sinh",
 sinBhAa.virama,
 sinFAa.virama,
 sinGAa.virama,
@@ -596,6 +597,5 @@ sinKAa.virama,
 sinNAa.virama,
 sinNnAa.virama,
 sinNngAa.virama,
-sinTAa.virama,
-"nyaa._c-sinh"
+sinTAa.virama
 )

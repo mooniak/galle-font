@@ -1,0 +1,19 @@
+{
+glyphname = "thRa-sinh";
+layers = (
+{
+layerId = "F0029E70-666A-46B3-82F3-BCA8DA6C0FED";
+shapes = (
+{
+pos = (100,0);
+ref = "rasign-sinh";
+},
+{
+pos = (1,0);
+ref = "tha-sinh";
+}
+);
+width = 405;
+}
+);
+}

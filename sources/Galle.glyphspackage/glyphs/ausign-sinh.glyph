@@ -6,11 +6,12 @@ layers = (
 layerId = "F0029E70-666A-46B3-82F3-BCA8DA6C0FED";
 shapes = (
 {
-ref = "vocalicllsign-sinh";
+pos = (-22,0);
+ref = "esign-sinh";
 },
 {
-pos = (265,0);
-ref = "esign-sinh";
+pos = (300,0);
+ref = "vocalicllsign-sinh";
 }
 );
 width = 572;

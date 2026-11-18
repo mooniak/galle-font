@@ -1,0 +1,19 @@
+{
+glyphname = "vocalicll-sinh";
+layers = (
+{
+layerId = "F0029E70-666A-46B3-82F3-BCA8DA6C0FED";
+shapes = (
+{
+ref = "vocalicl-sinh";
+},
+{
+pos = (593,0);
+ref = "vocalicllsign-sinh";
+}
+);
+width = 858;
+}
+);
+unicode = 3472;
+}

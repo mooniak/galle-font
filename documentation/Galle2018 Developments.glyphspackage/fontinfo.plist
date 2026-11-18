@@ -1,0 +1,1802 @@
+{
+.appVersion = "3532";
+.formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+},
+{
+name = Width;
+tag = wdth;
+}
+);
+customParameters = (
+{
+name = fsType;
+value = (
+);
+},
+{
+name = "Write lastChange";
+value = 0;
+},
+{
+name = "Write DisplayStrings";
+value = 0;
+},
+{
+name = vendorID;
+value = MNIK;
+}
+);
+date = "2018-08-28 08:37:35 +0000";
+familyName = Galle;
+featurePrefixes = (
+{
+code = "languagesystem DFLT dflt;
+languagesystem sinh dflt;
+";
+name = Languagesystems;
+},
+{
+code = "# lankafea:generated v1 — do not edit; regenerate with lankafea
+# classes: ";
+name = "lankafea-manifest";
+}
+);
+features = (
+{
+code = "# lankafea:generated v1 — do not edit; regenerate with lankafea
+# stacked consonant conjuncts
+lookup ConjunctLigatures {
+    sub ga-sinh virama-sinh zerowidthjoiner dha-sinh by gDha-sinh;  # g + dh
+    sub ka-sinh virama-sinh zerowidthjoiner ra-sinh by kRa-sinh;  # k + r
+    sub kha-sinh virama-sinh zerowidthjoiner ra-sinh by khRa-sinh;  # kh + r
+    sub ga-sinh virama-sinh zerowidthjoiner ra-sinh by gRa-sinh;  # g + r
+    sub gha-sinh virama-sinh zerowidthjoiner ra-sinh by ghRa-sinh;  # gh + r
+    sub ca-sinh virama-sinh zerowidthjoiner ra-sinh by cRa-sinh;  # c + r
+    sub cha-sinh virama-sinh zerowidthjoiner ra-sinh by chRa-sinh;  # ch + r
+    sub ja-sinh virama-sinh zerowidthjoiner ra-sinh by jRa-sinh;  # j + r
+    sub jha-sinh virama-sinh zerowidthjoiner ra-sinh by jhRa-sinh;  # jh + r
+    sub jnya-sinh virama-sinh zerowidthjoiner ra-sinh by jnyRa-sinh;  # jny + r
+    sub nyja-sinh virama-sinh zerowidthjoiner ra-sinh by nyjRa-sinh;  # nyj + r
+    sub tta-sinh virama-sinh zerowidthjoiner ra-sinh by ttRa-sinh;  # tt + r
+    sub ttha-sinh virama-sinh zerowidthjoiner ra-sinh by tthRa-sinh;  # tth + r
+    sub dda-sinh virama-sinh zerowidthjoiner ra-sinh by ddRa-sinh;  # dd + r
+    sub ddha-sinh virama-sinh zerowidthjoiner ra-sinh by ddhRa-sinh;  # ddh + r
+    sub ta-sinh virama-sinh zerowidthjoiner ra-sinh by tRa-sinh;  # t + r
+    sub tha-sinh virama-sinh zerowidthjoiner ra-sinh by thRa-sinh;  # th + r
+    sub da-sinh virama-sinh zerowidthjoiner ra-sinh by dRa-sinh;  # d + r
+    sub dha-sinh virama-sinh zerowidthjoiner ra-sinh by dhRa-sinh;  # dh + r
+    sub pa-sinh virama-sinh zerowidthjoiner ra-sinh by pRa-sinh;  # p + r
+    sub pha-sinh virama-sinh zerowidthjoiner ra-sinh by phRa-sinh;  # ph + r
+    sub ba-sinh virama-sinh zerowidthjoiner ra-sinh by bRa-sinh;  # b + r
+    sub bha-sinh virama-sinh zerowidthjoiner ra-sinh by bhRa-sinh;  # bh + r
+    sub ma-sinh virama-sinh zerowidthjoiner ra-sinh by mRa-sinh;  # m + r
+    sub va-sinh virama-sinh zerowidthjoiner ra-sinh by vRa-sinh;  # v + r
+    sub sha-sinh virama-sinh zerowidthjoiner ra-sinh by shRa-sinh;  # sh + r
+    sub ssa-sinh virama-sinh zerowidthjoiner ra-sinh by ssRa-sinh;  # ss + r
+    sub sa-sinh virama-sinh zerowidthjoiner ra-sinh by sRa-sinh;  # s + r
+    sub ha-sinh virama-sinh zerowidthjoiner ra-sinh by hRa-sinh;  # h + r
+    sub fa-sinh virama-sinh zerowidthjoiner ra-sinh by fRa-sinh;  # f + r
+} ConjunctLigatures;";
+tag = akhn;
+},
+{
+code = "# lankafea:generated v1 — do not edit; regenerate with lankafea
+lookup Reph {
+    sub ra-sinh virama-sinh zerowidthjoiner by repha-sinh;  # ra + virama + zwj -> repaya
+} Reph;";
+tag = rphf;
+},
+{
+code = "# lankafea:generated v1 — do not edit; regenerate with lankafea
+# rakaransaya / yansaya / touching sign
+lookup BelowBaseForms {
+    sub virama-sinh zerowidthjoiner ra-sinh by rasign-sinh;  # virama + zwj + ra -> rakaransaya
+    sub virama-sinh zerowidthjoiner ya-sinh by yasign-sinh;  # virama + zwj + ya -> yansaya
+} BelowBaseForms;
+# precomposed rakaransaya ligatures
+lookup RakarLigatures {
+    sub ka-sinh rasign-sinh by kRa-sinh;  # ka + rasign
+    sub kha-sinh rasign-sinh by khRa-sinh;  # kha + rasign
+    sub ga-sinh rasign-sinh by gRa-sinh;  # ga + rasign
+    sub gha-sinh rasign-sinh by ghRa-sinh;  # gha + rasign
+    sub ca-sinh rasign-sinh by cRa-sinh;  # ca + rasign
+    sub cha-sinh rasign-sinh by chRa-sinh;  # cha + rasign
+    sub ja-sinh rasign-sinh by jRa-sinh;  # ja + rasign
+    sub jha-sinh rasign-sinh by jhRa-sinh;  # jha + rasign
+    sub tta-sinh rasign-sinh by ttRa-sinh;  # tta + rasign
+    sub ttha-sinh rasign-sinh by tthRa-sinh;  # ttha + rasign
+    sub dda-sinh rasign-sinh by ddRa-sinh;  # dda + rasign
+    sub ddha-sinh rasign-sinh by ddhRa-sinh;  # ddha + rasign
+    sub ta-sinh rasign-sinh by tRa-sinh;  # ta + rasign
+    sub tha-sinh rasign-sinh by thRa-sinh;  # tha + rasign
+    sub da-sinh rasign-sinh by dRa-sinh;  # da + rasign
+    sub dha-sinh rasign-sinh by dhRa-sinh;  # dha + rasign
+    sub pa-sinh rasign-sinh by pRa-sinh;  # pa + rasign
+    sub pha-sinh rasign-sinh by phRa-sinh;  # pha + rasign
+    sub ba-sinh rasign-sinh by bRa-sinh;  # ba + rasign
+    sub bha-sinh rasign-sinh by bhRa-sinh;  # bha + rasign
+    sub ma-sinh rasign-sinh by mRa-sinh;  # ma + rasign
+    sub va-sinh rasign-sinh by vRa-sinh;  # va + rasign
+    sub sha-sinh rasign-sinh by shRa-sinh;  # sha + rasign
+    sub ssa-sinh rasign-sinh by ssRa-sinh;  # ssa + rasign
+    sub sa-sinh rasign-sinh by sRa-sinh;  # sa + rasign
+    sub ha-sinh rasign-sinh by hRa-sinh;  # ha + rasign
+    sub fa-sinh rasign-sinh by fRa-sinh;  # fa + rasign
+    sub jnya-sinh rasign-sinh by jnyRa-sinh;  # jnya + rasign
+    sub nyja-sinh rasign-sinh by nyjRa-sinh;  # nyja + rasign
+    sub kh-sinh rasign-sinh by khRa-sinh;  # kh + rasign
+    sub c-sinh rasign-sinh by cRa-sinh;  # c + rasign
+    sub ch-sinh rasign-sinh by chRa-sinh;  # ch + rasign
+    sub j-sinh rasign-sinh by jRa-sinh;  # j + rasign
+    sub jh-sinh rasign-sinh by jhRa-sinh;  # jh + rasign
+    sub tt-sinh rasign-sinh by ttRa-sinh;  # tt + rasign
+    sub tth-sinh rasign-sinh by tthRa-sinh;  # tth + rasign
+    sub dd-sinh rasign-sinh by ddRa-sinh;  # dd + rasign
+    sub ddh-sinh rasign-sinh by ddhRa-sinh;  # ddh + rasign
+    sub th-sinh rasign-sinh by thRa-sinh;  # th + rasign
+    sub dh-sinh rasign-sinh by dhRa-sinh;  # dh + rasign
+    sub ph-sinh rasign-sinh by phRa-sinh;  # ph + rasign
+    sub b-sinh rasign-sinh by bRa-sinh;  # b + rasign
+    sub m-sinh rasign-sinh by mRa-sinh;  # m + rasign
+    sub v-sinh rasign-sinh by vRa-sinh;  # v + rasign
+    sub jny-sinh rasign-sinh by jnyRa-sinh;  # jny + rasign
+    sub nyj-sinh rasign-sinh by nyjRa-sinh;  # nyj + rasign
+} RakarLigatures;";
+tag = vatu;
+},
+{
+code = "# lankafea:generated v1 — do not edit; regenerate with lankafea
+# al-lakuna / virama forms
+lookup PureConsonants {
+    sub ka-sinh virama-sinh by k-sinh;  # ka + virama
+    sub kha-sinh virama-sinh by kh-sinh;  # kha + virama
+    sub ga-sinh virama-sinh by g-sinh;  # ga + virama
+    sub gha-sinh virama-sinh by gh-sinh;  # gha + virama
+    sub nga-sinh virama-sinh by ng-sinh;  # nga + virama
+    sub nnga-sinh virama-sinh by nng-sinh;  # nnga + virama
+    sub ca-sinh virama-sinh by c-sinh;  # ca + virama
+    sub cha-sinh virama-sinh by ch-sinh;  # cha + virama
+    sub ja-sinh virama-sinh by j-sinh;  # ja + virama
+    sub jha-sinh virama-sinh by jh-sinh;  # jha + virama
+    sub nya-sinh virama-sinh by ny-sinh;  # nya + virama
+    sub tta-sinh virama-sinh by tt-sinh;  # tta + virama
+    sub ttha-sinh virama-sinh by tth-sinh;  # ttha + virama
+    sub dda-sinh virama-sinh by dd-sinh;  # dda + virama
+    sub ddha-sinh virama-sinh by ddh-sinh;  # ddha + virama
+    sub nna-sinh virama-sinh by nn-sinh;  # nna + virama
+    sub nndda-sinh virama-sinh by nndd-sinh;  # nndda + virama
+    sub ta-sinh virama-sinh by t-sinh;  # ta + virama
+    sub tha-sinh virama-sinh by th-sinh;  # tha + virama
+    sub da-sinh virama-sinh by d-sinh;  # da + virama
+    sub dha-sinh virama-sinh by dh-sinh;  # dha + virama
+    sub na-sinh virama-sinh by n-sinh;  # na + virama
+    sub nda-sinh virama-sinh by nd-sinh;  # nda + virama
+    sub pa-sinh virama-sinh by p-sinh;  # pa + virama
+    sub pha-sinh virama-sinh by ph-sinh;  # pha + virama
+    sub ba-sinh virama-sinh by b-sinh;  # ba + virama
+    sub bha-sinh virama-sinh by bh-sinh;  # bha + virama
+    sub ma-sinh virama-sinh by m-sinh;  # ma + virama
+    sub mba-sinh virama-sinh by mb-sinh;  # mba + virama
+    sub ya-sinh virama-sinh by y-sinh;  # ya + virama
+    sub ra-sinh virama-sinh by r-sinh;  # ra + virama
+    sub la-sinh virama-sinh by l-sinh;  # la + virama
+    sub va-sinh virama-sinh by v-sinh;  # va + virama
+    sub sha-sinh virama-sinh by sh-sinh;  # sha + virama
+    sub ssa-sinh virama-sinh by ss-sinh;  # ssa + virama
+    sub sa-sinh virama-sinh by s-sinh;  # sa + virama
+    sub ha-sinh virama-sinh by h-sinh;  # ha + virama
+    sub lla-sinh virama-sinh by ll-sinh;  # lla + virama
+    sub fa-sinh virama-sinh by f-sinh;  # fa + virama
+    sub jnya-sinh virama-sinh by jny-sinh;  # jnya + virama
+    sub nyja-sinh virama-sinh by nyj-sinh;  # nyja + virama
+} PureConsonants;
+# conjunct + virama forms
+lookup PureConjuncts {
+    sub bRa-sinh virama-sinh by bR-sinh;  # bRa + virama
+    sub bhRa-sinh virama-sinh by bhR-sinh;  # bhRa + virama
+    sub cRa-sinh virama-sinh by cR-sinh;  # cRa + virama
+    sub chRa-sinh virama-sinh by chR-sinh;  # chRa + virama
+    sub dRa-sinh virama-sinh by dR-sinh;  # dRa + virama
+    sub ddRa-sinh virama-sinh by ddR-sinh;  # ddRa + virama
+    sub ddhRa-sinh virama-sinh by ddhR-sinh;  # ddhRa + virama
+    sub dhRa-sinh virama-sinh by dhR-sinh;  # dhRa + virama
+    sub fRa-sinh virama-sinh by fR-sinh;  # fRa + virama
+    sub gRa-sinh virama-sinh by gR-sinh;  # gRa + virama
+    sub ghRa-sinh virama-sinh by ghR-sinh;  # ghRa + virama
+    sub hRa-sinh virama-sinh by hR-sinh;  # hRa + virama
+    sub jRa-sinh virama-sinh by jR-sinh;  # jRa + virama
+    sub jhRa-sinh virama-sinh by jhR-sinh;  # jhRa + virama
+    sub jnyRa-sinh virama-sinh by jnyR-sinh;  # jnyRa + virama
+    sub kRa-sinh virama-sinh by kR-sinh;  # kRa + virama
+    sub khRa-sinh virama-sinh by khR-sinh;  # khRa + virama
+    sub mRa-sinh virama-sinh by mR-sinh;  # mRa + virama
+    sub nyjRa-sinh virama-sinh by nyjR-sinh;  # nyjRa + virama
+    sub pRa-sinh virama-sinh by pR-sinh;  # pRa + virama
+    sub phRa-sinh virama-sinh by phR-sinh;  # phRa + virama
+    sub sRa-sinh virama-sinh by sR-sinh;  # sRa + virama
+    sub shRa-sinh virama-sinh by shR-sinh;  # shRa + virama
+    sub ssRa-sinh virama-sinh by ssR-sinh;  # ssRa + virama
+    sub tRa-sinh virama-sinh by tR-sinh;  # tRa + virama
+    sub thRa-sinh virama-sinh by thR-sinh;  # thRa + virama
+    sub ttRa-sinh virama-sinh by ttR-sinh;  # ttRa + virama
+    sub tthRa-sinh virama-sinh by tthR-sinh;  # tthRa + virama
+    sub vRa-sinh virama-sinh by vR-sinh;  # vRa + virama
+} PureConjuncts;
+lookup VowelLig_abvs {
+    lookupflag UseMarkFilteringSet [virama-sinh isign-sinh iisign-sinh usign-sinh uusign-sinh];
+    sub ka-sinh isign-sinh by kI-sinh;  # ka + isign
+    sub ka-sinh iisign-sinh by kIi-sinh;  # ka + iisign
+    sub kha-sinh isign-sinh by khI-sinh;  # kha + isign
+    sub kha-sinh iisign-sinh by khIi-sinh;  # kha + iisign
+    sub ga-sinh isign-sinh by gI-sinh;  # ga + isign
+    sub ga-sinh iisign-sinh by gIi-sinh;  # ga + iisign
+    sub gha-sinh isign-sinh by ghI-sinh;  # gha + isign
+    sub gha-sinh iisign-sinh by ghIi-sinh;  # gha + iisign
+    sub nga-sinh isign-sinh by ngI-sinh;  # nga + isign
+    sub nga-sinh iisign-sinh by ngIi-sinh;  # nga + iisign
+    sub nnga-sinh isign-sinh by nngI-sinh;  # nnga + isign
+    sub nnga-sinh iisign-sinh by nngIi-sinh;  # nnga + iisign
+    sub ca-sinh isign-sinh by cI-sinh;  # ca + isign
+    sub ca-sinh iisign-sinh by cIi-sinh;  # ca + iisign
+    sub cha-sinh isign-sinh by chI-sinh;  # cha + isign
+    sub cha-sinh iisign-sinh by chIi-sinh;  # cha + iisign
+    sub ja-sinh isign-sinh by jI-sinh;  # ja + isign
+    sub ja-sinh iisign-sinh by jIi-sinh;  # ja + iisign
+    sub jha-sinh isign-sinh by jhI-sinh;  # jha + isign
+    sub jha-sinh iisign-sinh by jhIi-sinh;  # jha + iisign
+    sub nya-sinh isign-sinh by nyI-sinh;  # nya + isign
+    sub nya-sinh iisign-sinh by nyIi-sinh;  # nya + iisign
+    sub tta-sinh isign-sinh by ttI-sinh;  # tta + isign
+    sub tta-sinh iisign-sinh by ttIi-sinh;  # tta + iisign
+    sub ttha-sinh isign-sinh by tthI-sinh;  # ttha + isign
+    sub ttha-sinh iisign-sinh by tthIi-sinh;  # ttha + iisign
+    sub dda-sinh isign-sinh by ddI-sinh;  # dda + isign
+    sub dda-sinh iisign-sinh by ddIi-sinh;  # dda + iisign
+    sub ddha-sinh isign-sinh by ddhI-sinh;  # ddha + isign
+    sub ddha-sinh iisign-sinh by ddhIi-sinh;  # ddha + iisign
+    sub nna-sinh isign-sinh by nnI-sinh;  # nna + isign
+    sub nna-sinh iisign-sinh by nnIi-sinh;  # nna + iisign
+    sub nndda-sinh isign-sinh by nnddI-sinh;  # nndda + isign
+    sub nndda-sinh iisign-sinh by nnddIi-sinh;  # nndda + iisign
+    sub ta-sinh isign-sinh by tI-sinh;  # ta + isign
+    sub ta-sinh iisign-sinh by tIi-sinh;  # ta + iisign
+    sub tha-sinh isign-sinh by thI-sinh;  # tha + isign
+    sub tha-sinh iisign-sinh by thIi-sinh;  # tha + iisign
+    sub da-sinh isign-sinh by dI-sinh;  # da + isign
+    sub da-sinh iisign-sinh by dIi-sinh;  # da + iisign
+    sub dha-sinh isign-sinh by dhI-sinh;  # dha + isign
+    sub dha-sinh iisign-sinh by dhIi-sinh;  # dha + iisign
+    sub na-sinh isign-sinh by nI-sinh;  # na + isign
+    sub na-sinh iisign-sinh by nIi-sinh;  # na + iisign
+    sub nda-sinh isign-sinh by ndI-sinh;  # nda + isign
+    sub nda-sinh iisign-sinh by ndIi-sinh;  # nda + iisign
+    sub pa-sinh isign-sinh by pI-sinh;  # pa + isign
+    sub pa-sinh iisign-sinh by pIi-sinh;  # pa + iisign
+    sub pha-sinh isign-sinh by phI-sinh;  # pha + isign
+    sub pha-sinh iisign-sinh by phIi-sinh;  # pha + iisign
+    sub ba-sinh isign-sinh by bI-sinh;  # ba + isign
+    sub ba-sinh iisign-sinh by bIi-sinh;  # ba + iisign
+    sub bha-sinh isign-sinh by bhI-sinh;  # bha + isign
+    sub bha-sinh iisign-sinh by bhIi-sinh;  # bha + iisign
+    sub ma-sinh isign-sinh by mI-sinh;  # ma + isign
+    sub ma-sinh iisign-sinh by mIi-sinh;  # ma + iisign
+    sub mba-sinh isign-sinh by mbI-sinh;  # mba + isign
+    sub mba-sinh iisign-sinh by mbIi-sinh;  # mba + iisign
+    sub ya-sinh isign-sinh by yI-sinh;  # ya + isign
+    sub ya-sinh iisign-sinh by yIi-sinh;  # ya + iisign
+    sub ra-sinh isign-sinh by rI-sinh;  # ra + isign
+    sub ra-sinh iisign-sinh by rIi-sinh;  # ra + iisign
+    sub la-sinh isign-sinh by lI-sinh;  # la + isign
+    sub la-sinh iisign-sinh by lIi-sinh;  # la + iisign
+    sub va-sinh isign-sinh by vI-sinh;  # va + isign
+    sub va-sinh iisign-sinh by vIi-sinh;  # va + iisign
+    sub sha-sinh isign-sinh by shI-sinh;  # sha + isign
+    sub sha-sinh iisign-sinh by shIi-sinh;  # sha + iisign
+    sub ssa-sinh isign-sinh by ssI-sinh;  # ssa + isign
+    sub ssa-sinh iisign-sinh by ssIi-sinh;  # ssa + iisign
+    sub sa-sinh isign-sinh by sI-sinh;  # sa + isign
+    sub sa-sinh iisign-sinh by sIi-sinh;  # sa + iisign
+    sub ha-sinh isign-sinh by hI-sinh;  # ha + isign
+    sub ha-sinh iisign-sinh by hIi-sinh;  # ha + iisign
+    sub lla-sinh isign-sinh by llI-sinh;  # lla + isign
+    sub lla-sinh iisign-sinh by llIi-sinh;  # lla + iisign
+    sub fa-sinh isign-sinh by fI-sinh;  # fa + isign
+    sub fa-sinh iisign-sinh by fIi-sinh;  # fa + iisign
+    sub jnya-sinh isign-sinh by jnyI-sinh;  # jnya + isign
+    sub jnya-sinh iisign-sinh by jnyIi-sinh;  # jnya + iisign
+    sub nyja-sinh isign-sinh by nyjI-sinh;  # nyja + isign
+    sub nyja-sinh iisign-sinh by nyjIi-sinh;  # nyja + iisign
+    sub kh-sinh isign-sinh by khI-sinh;  # kh + isign
+    sub kh-sinh iisign-sinh by khIi-sinh;  # kh + iisign
+    sub ng-sinh isign-sinh by ngI-sinh;  # ng + isign
+    sub ng-sinh iisign-sinh by ngIi-sinh;  # ng + iisign
+    sub c-sinh isign-sinh by cI-sinh;  # c + isign
+    sub c-sinh iisign-sinh by cIi-sinh;  # c + iisign
+    sub ch-sinh isign-sinh by chI-sinh;  # ch + isign
+    sub ch-sinh iisign-sinh by chIi-sinh;  # ch + iisign
+    sub j-sinh isign-sinh by jI-sinh;  # j + isign
+    sub j-sinh iisign-sinh by jIi-sinh;  # j + iisign
+    sub jh-sinh isign-sinh by jhI-sinh;  # jh + isign
+    sub jh-sinh iisign-sinh by jhIi-sinh;  # jh + iisign
+    sub tt-sinh isign-sinh by ttI-sinh;  # tt + isign
+    sub tt-sinh iisign-sinh by ttIi-sinh;  # tt + iisign
+    sub tth-sinh isign-sinh by tthI-sinh;  # tth + isign
+    sub tth-sinh iisign-sinh by tthIi-sinh;  # tth + iisign
+    sub dd-sinh isign-sinh by ddI-sinh;  # dd + isign
+    sub dd-sinh iisign-sinh by ddIi-sinh;  # dd + iisign
+    sub ddh-sinh isign-sinh by ddhI-sinh;  # ddh + isign
+    sub ddh-sinh iisign-sinh by ddhIi-sinh;  # ddh + iisign
+    sub nndd-sinh isign-sinh by nnddI-sinh;  # nndd + isign
+    sub nndd-sinh iisign-sinh by nnddIi-sinh;  # nndd + iisign
+    sub th-sinh isign-sinh by thI-sinh;  # th + isign
+    sub th-sinh iisign-sinh by thIi-sinh;  # th + iisign
+    sub dh-sinh isign-sinh by dhI-sinh;  # dh + isign
+    sub dh-sinh iisign-sinh by dhIi-sinh;  # dh + iisign
+    sub ph-sinh isign-sinh by phI-sinh;  # ph + isign
+    sub ph-sinh iisign-sinh by phIi-sinh;  # ph + iisign
+    sub b-sinh isign-sinh by bI-sinh;  # b + isign
+    sub b-sinh iisign-sinh by bIi-sinh;  # b + iisign
+    sub m-sinh isign-sinh by mI-sinh;  # m + isign
+    sub m-sinh iisign-sinh by mIi-sinh;  # m + iisign
+    sub mb-sinh isign-sinh by mbI-sinh;  # mb + isign
+    sub mb-sinh iisign-sinh by mbIi-sinh;  # mb + iisign
+    sub r-sinh isign-sinh by rI-sinh;  # r + isign
+    sub r-sinh iisign-sinh by rIi-sinh;  # r + iisign
+    sub v-sinh isign-sinh by vI-sinh;  # v + isign
+    sub v-sinh iisign-sinh by vIi-sinh;  # v + iisign
+    sub dRa-sinh isign-sinh by dRI-sinh;  # dRa + isign
+    sub dRa-sinh iisign-sinh by dRIi-sinh;  # dRa + iisign
+    sub jny-sinh isign-sinh by jnyI-sinh;  # jny + isign
+    sub jny-sinh iisign-sinh by jnyIi-sinh;  # jny + iisign
+    sub nyj-sinh isign-sinh by nyjI-sinh;  # nyj + isign
+    sub nyj-sinh iisign-sinh by nyjIi-sinh;  # nyj + iisign
+    sub kRa-sinh isign-sinh by kRI-sinh;  # kRa + isign
+    sub kRa-sinh iisign-sinh by kRIi-sinh;  # kRa + iisign
+    sub khRa-sinh isign-sinh by khRI-sinh;  # khRa + isign
+    sub khRa-sinh iisign-sinh by khRIi-sinh;  # khRa + iisign
+    sub gRa-sinh isign-sinh by gRI-sinh;  # gRa + isign
+    sub gRa-sinh iisign-sinh by gRIi-sinh;  # gRa + iisign
+    sub ghRa-sinh isign-sinh by ghRI-sinh;  # ghRa + isign
+    sub ghRa-sinh iisign-sinh by ghRIi-sinh;  # ghRa + iisign
+    sub cRa-sinh isign-sinh by cRI-sinh;  # cRa + isign
+    sub cRa-sinh iisign-sinh by cRIi-sinh;  # cRa + iisign
+    sub chRa-sinh isign-sinh by chRI-sinh;  # chRa + isign
+    sub chRa-sinh iisign-sinh by chRIi-sinh;  # chRa + iisign
+    sub jRa-sinh isign-sinh by jRI-sinh;  # jRa + isign
+    sub jRa-sinh iisign-sinh by jRIi-sinh;  # jRa + iisign
+    sub jhRa-sinh isign-sinh by jhRI-sinh;  # jhRa + isign
+    sub jhRa-sinh iisign-sinh by jhRIi-sinh;  # jhRa + iisign
+    sub ttRa-sinh isign-sinh by ttRI-sinh;  # ttRa + isign
+    sub ttRa-sinh iisign-sinh by ttRIi-sinh;  # ttRa + iisign
+    sub tthRa-sinh isign-sinh by tthRI-sinh;  # tthRa + isign
+    sub tthRa-sinh iisign-sinh by tthRIi-sinh;  # tthRa + iisign
+    sub ddRa-sinh isign-sinh by ddRI-sinh;  # ddRa + isign
+    sub ddRa-sinh iisign-sinh by ddRIi-sinh;  # ddRa + iisign
+    sub ddhRa-sinh isign-sinh by ddhRI-sinh;  # ddhRa + isign
+    sub ddhRa-sinh iisign-sinh by ddhRIi-sinh;  # ddhRa + iisign
+    sub tRa-sinh isign-sinh by tRI-sinh;  # tRa + isign
+    sub tRa-sinh iisign-sinh by tRIi-sinh;  # tRa + iisign
+    sub thRa-sinh isign-sinh by thRI-sinh;  # thRa + isign
+    sub thRa-sinh iisign-sinh by thRIi-sinh;  # thRa + iisign
+    sub dhRa-sinh isign-sinh by dhRI-sinh;  # dhRa + isign
+    sub dhRa-sinh iisign-sinh by dhRIi-sinh;  # dhRa + iisign
+    sub pRa-sinh isign-sinh by pRI-sinh;  # pRa + isign
+    sub pRa-sinh iisign-sinh by pRIi-sinh;  # pRa + iisign
+    sub phRa-sinh isign-sinh by phRI-sinh;  # phRa + isign
+    sub phRa-sinh iisign-sinh by phRIi-sinh;  # phRa + iisign
+    sub bRa-sinh isign-sinh by bRI-sinh;  # bRa + isign
+    sub bRa-sinh iisign-sinh by bRIi-sinh;  # bRa + iisign
+    sub bhRa-sinh isign-sinh by bhRI-sinh;  # bhRa + isign
+    sub bhRa-sinh iisign-sinh by bhRIi-sinh;  # bhRa + iisign
+    sub mRa-sinh isign-sinh by mRI-sinh;  # mRa + isign
+    sub mRa-sinh iisign-sinh by mRIi-sinh;  # mRa + iisign
+    sub vRa-sinh isign-sinh by vRI-sinh;  # vRa + isign
+    sub vRa-sinh iisign-sinh by vRIi-sinh;  # vRa + iisign
+    sub shRa-sinh isign-sinh by shRI-sinh;  # shRa + isign
+    sub shRa-sinh iisign-sinh by shRIi-sinh;  # shRa + iisign
+    sub ssRa-sinh isign-sinh by ssRI-sinh;  # ssRa + isign
+    sub ssRa-sinh iisign-sinh by ssRIi-sinh;  # ssRa + iisign
+    sub sRa-sinh isign-sinh by sRI-sinh;  # sRa + isign
+    sub sRa-sinh iisign-sinh by sRIi-sinh;  # sRa + iisign
+    sub hRa-sinh isign-sinh by hRI-sinh;  # hRa + isign
+    sub hRa-sinh iisign-sinh by hRIi-sinh;  # hRa + iisign
+    sub fRa-sinh isign-sinh by fRI-sinh;  # fRa + isign
+    sub fRa-sinh iisign-sinh by fRIi-sinh;  # fRa + iisign
+    sub jnyRa-sinh isign-sinh by jnyRI-sinh;  # jnyRa + isign
+    sub jnyRa-sinh iisign-sinh by jnyRIi-sinh;  # jnyRa + iisign
+} VowelLig_abvs;
+# signs carried by the yansaya
+lookup YansayaSigns_abvs {
+    sub yasign-sinh iisign-sinh by yasign_iisign-sinh;  # yasign + iisign
+    sub yasign-sinh isign-sinh by yasign_isign-sinh;  # yasign + isign
+} YansayaSigns_abvs;";
+tag = abvs;
+},
+{
+code = "# lankafea:generated v1 — do not edit; regenerate with lankafea
+lookup VowelLig_blws {
+    sub ka-sinh usign-sinh by kU-sinh;  # ka + usign
+    sub ka-sinh uusign-sinh by kUu-sinh;  # ka + uusign
+    sub kha-sinh usign-sinh by khU-sinh;  # kha + usign
+    sub kha-sinh uusign-sinh by khUu-sinh;  # kha + uusign
+    sub ga-sinh usign-sinh by gU-sinh;  # ga + usign
+    sub ga-sinh uusign-sinh by gUu-sinh;  # ga + uusign
+    sub gha-sinh usign-sinh by ghU-sinh;  # gha + usign
+    sub gha-sinh uusign-sinh by ghUu-sinh;  # gha + uusign
+    sub nga-sinh usign-sinh by ngU-sinh;  # nga + usign
+    sub nga-sinh uusign-sinh by ngUu-sinh;  # nga + uusign
+    sub nnga-sinh usign-sinh by nngU-sinh;  # nnga + usign
+    sub nnga-sinh uusign-sinh by nngUu-sinh;  # nnga + uusign
+    sub ca-sinh usign-sinh by cU-sinh;  # ca + usign
+    sub ca-sinh uusign-sinh by cUu-sinh;  # ca + uusign
+    sub cha-sinh usign-sinh by chU-sinh;  # cha + usign
+    sub cha-sinh uusign-sinh by chUu-sinh;  # cha + uusign
+    sub ja-sinh usign-sinh by jU-sinh;  # ja + usign
+    sub ja-sinh uusign-sinh by jUu-sinh;  # ja + uusign
+    sub jha-sinh usign-sinh by jhU-sinh;  # jha + usign
+    sub jha-sinh uusign-sinh by jhUu-sinh;  # jha + uusign
+    sub nya-sinh usign-sinh by nyU-sinh;  # nya + usign
+    sub nya-sinh uusign-sinh by nyUu-sinh;  # nya + uusign
+    sub tta-sinh usign-sinh by ttU-sinh;  # tta + usign
+    sub tta-sinh uusign-sinh by ttUu-sinh;  # tta + uusign
+    sub ttha-sinh usign-sinh by tthU-sinh;  # ttha + usign
+    sub ttha-sinh uusign-sinh by tthUu-sinh;  # ttha + uusign
+    sub dda-sinh usign-sinh by ddU-sinh;  # dda + usign
+    sub dda-sinh uusign-sinh by ddUu-sinh;  # dda + uusign
+    sub ddha-sinh usign-sinh by ddhU-sinh;  # ddha + usign
+    sub ddha-sinh uusign-sinh by ddhUu-sinh;  # ddha + uusign
+    sub nna-sinh usign-sinh by nnU-sinh;  # nna + usign
+    sub nna-sinh uusign-sinh by nnUu-sinh;  # nna + uusign
+    sub nndda-sinh usign-sinh by nnddU-sinh;  # nndda + usign
+    sub nndda-sinh uusign-sinh by nnddUu-sinh;  # nndda + uusign
+    sub ta-sinh usign-sinh by tU-sinh;  # ta + usign
+    sub ta-sinh uusign-sinh by tUu-sinh;  # ta + uusign
+    sub tha-sinh usign-sinh by thU-sinh;  # tha + usign
+    sub tha-sinh uusign-sinh by thUu-sinh;  # tha + uusign
+    sub da-sinh usign-sinh by dU-sinh;  # da + usign
+    sub da-sinh uusign-sinh by dUu-sinh;  # da + uusign
+    sub dha-sinh usign-sinh by dhU-sinh;  # dha + usign
+    sub dha-sinh uusign-sinh by dhUu-sinh;  # dha + uusign
+    sub na-sinh usign-sinh by nU-sinh;  # na + usign
+    sub na-sinh uusign-sinh by nUu-sinh;  # na + uusign
+    sub nda-sinh usign-sinh by ndU-sinh;  # nda + usign
+    sub nda-sinh uusign-sinh by ndUu-sinh;  # nda + uusign
+    sub pa-sinh usign-sinh by pU-sinh;  # pa + usign
+    sub pa-sinh uusign-sinh by pUu-sinh;  # pa + uusign
+    sub pha-sinh usign-sinh by phU-sinh;  # pha + usign
+    sub pha-sinh uusign-sinh by phUu-sinh;  # pha + uusign
+    sub ba-sinh usign-sinh by bU-sinh;  # ba + usign
+    sub ba-sinh uusign-sinh by bUu-sinh;  # ba + uusign
+    sub bha-sinh usign-sinh by bhU-sinh;  # bha + usign
+    sub bha-sinh uusign-sinh by bhUu-sinh;  # bha + uusign
+    sub ma-sinh usign-sinh by mU-sinh;  # ma + usign
+    sub ma-sinh uusign-sinh by mUu-sinh;  # ma + uusign
+    sub mba-sinh usign-sinh by mbU-sinh;  # mba + usign
+    sub mba-sinh uusign-sinh by mbUu-sinh;  # mba + uusign
+    sub ya-sinh usign-sinh by yU-sinh;  # ya + usign
+    sub ya-sinh uusign-sinh by yUu-sinh;  # ya + uusign
+    sub ra-sinh usign-sinh by rU-sinh;  # ra + usign
+    sub ra-sinh uusign-sinh by rUu-sinh;  # ra + uusign
+    sub la-sinh usign-sinh by lU-sinh;  # la + usign
+    sub la-sinh uusign-sinh by lUu-sinh;  # la + uusign
+    sub va-sinh usign-sinh by vU-sinh;  # va + usign
+    sub va-sinh uusign-sinh by vUu-sinh;  # va + uusign
+    sub sha-sinh usign-sinh by shU-sinh;  # sha + usign
+    sub sha-sinh uusign-sinh by shUu-sinh;  # sha + uusign
+    sub ssa-sinh usign-sinh by ssU-sinh;  # ssa + usign
+    sub ssa-sinh uusign-sinh by ssUu-sinh;  # ssa + uusign
+    sub sa-sinh usign-sinh by sU-sinh;  # sa + usign
+    sub sa-sinh uusign-sinh by sUu-sinh;  # sa + uusign
+    sub ha-sinh usign-sinh by hU-sinh;  # ha + usign
+    sub ha-sinh uusign-sinh by hUu-sinh;  # ha + uusign
+    sub lla-sinh usign-sinh by llU-sinh;  # lla + usign
+    sub lla-sinh uusign-sinh by llUu-sinh;  # lla + uusign
+    sub fa-sinh usign-sinh by fU-sinh;  # fa + usign
+    sub fa-sinh uusign-sinh by fUu-sinh;  # fa + uusign
+    sub jnya-sinh usign-sinh by jnyU-sinh;  # jnya + usign
+    sub jnya-sinh uusign-sinh by jnyUu-sinh;  # jnya + uusign
+    sub nyja-sinh usign-sinh by nyjU-sinh;  # nyja + usign
+    sub nyja-sinh uusign-sinh by nyjUu-sinh;  # nyja + uusign
+    sub kh-sinh usign-sinh by khU-sinh;  # kh + usign
+    sub kh-sinh uusign-sinh by khUu-sinh;  # kh + uusign
+    sub ng-sinh usign-sinh by ngU-sinh;  # ng + usign
+    sub ng-sinh uusign-sinh by ngUu-sinh;  # ng + uusign
+    sub c-sinh usign-sinh by cU-sinh;  # c + usign
+    sub c-sinh uusign-sinh by cUu-sinh;  # c + uusign
+    sub ch-sinh usign-sinh by chU-sinh;  # ch + usign
+    sub ch-sinh uusign-sinh by chUu-sinh;  # ch + uusign
+    sub j-sinh usign-sinh by jU-sinh;  # j + usign
+    sub j-sinh uusign-sinh by jUu-sinh;  # j + uusign
+    sub jh-sinh usign-sinh by jhU-sinh;  # jh + usign
+    sub jh-sinh uusign-sinh by jhUu-sinh;  # jh + uusign
+    sub tt-sinh usign-sinh by ttU-sinh;  # tt + usign
+    sub tt-sinh uusign-sinh by ttUu-sinh;  # tt + uusign
+    sub tth-sinh usign-sinh by tthU-sinh;  # tth + usign
+    sub tth-sinh uusign-sinh by tthUu-sinh;  # tth + uusign
+    sub dd-sinh usign-sinh by ddU-sinh;  # dd + usign
+    sub dd-sinh uusign-sinh by ddUu-sinh;  # dd + uusign
+    sub ddh-sinh usign-sinh by ddhU-sinh;  # ddh + usign
+    sub ddh-sinh uusign-sinh by ddhUu-sinh;  # ddh + uusign
+    sub nndd-sinh usign-sinh by nnddU-sinh;  # nndd + usign
+    sub nndd-sinh uusign-sinh by nnddUu-sinh;  # nndd + uusign
+    sub th-sinh usign-sinh by thU-sinh;  # th + usign
+    sub th-sinh uusign-sinh by thUu-sinh;  # th + uusign
+    sub dh-sinh usign-sinh by dhU-sinh;  # dh + usign
+    sub dh-sinh uusign-sinh by dhUu-sinh;  # dh + uusign
+    sub ph-sinh usign-sinh by phU-sinh;  # ph + usign
+    sub ph-sinh uusign-sinh by phUu-sinh;  # ph + uusign
+    sub b-sinh usign-sinh by bU-sinh;  # b + usign
+    sub b-sinh uusign-sinh by bUu-sinh;  # b + uusign
+    sub m-sinh usign-sinh by mU-sinh;  # m + usign
+    sub m-sinh uusign-sinh by mUu-sinh;  # m + uusign
+    sub mb-sinh usign-sinh by mbU-sinh;  # mb + usign
+    sub mb-sinh uusign-sinh by mbUu-sinh;  # mb + uusign
+    sub r-sinh usign-sinh by rU-sinh;  # r + usign
+    sub r-sinh uusign-sinh by rUu-sinh;  # r + uusign
+    sub v-sinh usign-sinh by vU-sinh;  # v + usign
+    sub v-sinh uusign-sinh by vUu-sinh;  # v + uusign
+    sub jny-sinh usign-sinh by jnyU-sinh;  # jny + usign
+    sub jny-sinh uusign-sinh by jnyUu-sinh;  # jny + uusign
+    sub nyj-sinh usign-sinh by nyjU-sinh;  # nyj + usign
+    sub nyj-sinh uusign-sinh by nyjUu-sinh;  # nyj + uusign
+} VowelLig_blws;
+# signs carried by the yansaya
+lookup YansayaSigns_blws {
+    sub yasign-sinh usign-sinh by yasign_usign-sinh;  # yasign + usign
+    sub yasign-sinh uusign-sinh by yasign_uusign-sinh;  # yasign + uusign
+} YansayaSigns_blws;";
+tag = blws;
+},
+{
+code = "# lankafea:generated v1 — do not edit; regenerate with lankafea
+lookup VowelLig_psts {
+    sub ka-sinh aasign-sinh by kAa-sinh;  # ka + aasign
+    sub ga-sinh aasign-sinh by gAa-sinh;  # ga + aasign
+    sub nnga-sinh aasign-sinh by nngAa-sinh;  # nnga + aasign
+    sub nya-sinh aasign-sinh by nyaa._c-sinh;  # nya + aasign (below-base ._c)
+    sub nna-sinh aasign-sinh by nnAa-sinh;  # nna + aasign
+    sub ta-sinh aasign-sinh by tAa-sinh;  # ta + aasign
+    sub na-sinh aasign-sinh by nAa-sinh;  # na + aasign
+    sub bha-sinh aasign-sinh by bhAa-sinh;  # bha + aasign
+    sub ra-sinh aesign-sinh by rAe-sinh;  # ra + aesign
+    sub ra-sinh aaesign-sinh by rAae-sinh;  # ra + aaesign
+    sub ha-sinh aasign-sinh by hAa-sinh;  # ha + aasign
+    sub fa-sinh aasign-sinh by fAa-sinh;  # fa + aasign
+    sub r-sinh aesign-sinh by rAe-sinh;  # r + aesign
+    sub r-sinh aaesign-sinh by rAae-sinh;  # r + aaesign
+} VowelLig_psts;
+# split-matra right components with virama
+lookup SignVirama {
+    sub aasign-sinh virama-sinh by aasign_virama-sinh;  # aasign + virama
+} SignVirama;
+# precomposed reph forms, after the shaper moves the reph
+lookup RephLigatures {
+    sub ka-sinh repha-sinh by ka_repha-sinh;  # ka + repha
+    sub kU-sinh repha-sinh by kU_repha-sinh;  # kU + repha
+    sub kUu-sinh repha-sinh by kUu_repha-sinh;  # kUu + repha
+    sub kha-sinh repha-sinh by kha_repha-sinh;  # kha + repha
+    sub khU-sinh repha-sinh by khU_repha-sinh;  # khU + repha
+    sub khUu-sinh repha-sinh by khUu_repha-sinh;  # khUu + repha
+    sub ga-sinh repha-sinh by ga_repha-sinh;  # ga + repha
+    sub gU-sinh repha-sinh by gU_repha-sinh;  # gU + repha
+    sub gUu-sinh repha-sinh by gUu_repha-sinh;  # gUu + repha
+    sub gha-sinh repha-sinh by gha_repha-sinh;  # gha + repha
+    sub ghU-sinh repha-sinh by ghU_repha-sinh;  # ghU + repha
+    sub ghUu-sinh repha-sinh by ghUu_repha-sinh;  # ghUu + repha
+    sub nga-sinh repha-sinh by nga_repha-sinh;  # nga + repha
+    sub nnga-sinh repha-sinh by nnga_repha-sinh;  # nnga + repha
+    sub ca-sinh repha-sinh by ca_repha-sinh;  # ca + repha
+    sub cU-sinh repha-sinh by cU_repha-sinh;  # cU + repha
+    sub cUu-sinh repha-sinh by cUu_repha-sinh;  # cUu + repha
+    sub cha-sinh repha-sinh by cha_repha-sinh;  # cha + repha
+    sub chU-sinh repha-sinh by chU_repha-sinh;  # chU + repha
+    sub chUu-sinh repha-sinh by chUu_repha-sinh;  # chUu + repha
+    sub ja-sinh repha-sinh by ja_repha-sinh;  # ja + repha
+    sub jU-sinh repha-sinh by jU_repha-sinh;  # jU + repha
+    sub jUu-sinh repha-sinh by jUu_repha-sinh;  # jUu + repha
+    sub jha-sinh repha-sinh by jha_repha-sinh;  # jha + repha
+    sub jhU-sinh repha-sinh by jhU_repha-sinh;  # jhU + repha
+    sub jhUu-sinh repha-sinh by jhUu_repha-sinh;  # jhUu + repha
+    sub nya-sinh repha-sinh by nya_repha-sinh;  # nya + repha
+    sub tta-sinh repha-sinh by tta_repha-sinh;  # tta + repha
+    sub ttU-sinh repha-sinh by ttU_repha-sinh;  # ttU + repha
+    sub ttUu-sinh repha-sinh by ttUu_repha-sinh;  # ttUu + repha
+    sub ttha-sinh repha-sinh by ttha_repha-sinh;  # ttha + repha
+    sub tthU-sinh repha-sinh by tthU_repha-sinh;  # tthU + repha
+    sub tthUu-sinh repha-sinh by tthUu_repha-sinh;  # tthUu + repha
+    sub dda-sinh repha-sinh by dda_repha-sinh;  # dda + repha
+    sub ddU-sinh repha-sinh by ddU_repha-sinh;  # ddU + repha
+    sub ddUu-sinh repha-sinh by ddUu_repha-sinh;  # ddUu + repha
+    sub ddha-sinh repha-sinh by ddha_repha-sinh;  # ddha + repha
+    sub ddhU-sinh repha-sinh by ddhU_repha-sinh;  # ddhU + repha
+    sub ddhUu-sinh repha-sinh by ddhUu_repha-sinh;  # ddhUu + repha
+    sub nna-sinh repha-sinh by nna_repha-sinh;  # nna + repha
+    sub nndda-sinh repha-sinh by nndda_repha-sinh;  # nndda + repha
+    sub ta-sinh repha-sinh by ta_repha-sinh;  # ta + repha
+    sub tU-sinh repha-sinh by tU_repha-sinh;  # tU + repha
+    sub tUu-sinh repha-sinh by tUu_repha-sinh;  # tUu + repha
+    sub tha-sinh repha-sinh by tha_repha-sinh;  # tha + repha
+    sub thU-sinh repha-sinh by thU_repha-sinh;  # thU + repha
+    sub thUu-sinh repha-sinh by thUu_repha-sinh;  # thUu + repha
+    sub da-sinh repha-sinh by da_repha-sinh;  # da + repha
+    sub dU-sinh repha-sinh by dU_repha-sinh;  # dU + repha
+    sub dUu-sinh repha-sinh by dUu_repha-sinh;  # dUu + repha
+    sub dha-sinh repha-sinh by dha_repha-sinh;  # dha + repha
+    sub dhU-sinh repha-sinh by dhU_repha-sinh;  # dhU + repha
+    sub dhUu-sinh repha-sinh by dhUu_repha-sinh;  # dhUu + repha
+    sub na-sinh repha-sinh by na_repha-sinh;  # na + repha
+    sub nda-sinh repha-sinh by nda_repha-sinh;  # nda + repha
+    sub pa-sinh repha-sinh by pa_repha-sinh;  # pa + repha
+    sub pU-sinh repha-sinh by pU_repha-sinh;  # pU + repha
+    sub pUu-sinh repha-sinh by pUu_repha-sinh;  # pUu + repha
+    sub pha-sinh repha-sinh by pha_repha-sinh;  # pha + repha
+    sub phU-sinh repha-sinh by phU_repha-sinh;  # phU + repha
+    sub phUu-sinh repha-sinh by phUu_repha-sinh;  # phUu + repha
+    sub ba-sinh repha-sinh by ba_repha-sinh;  # ba + repha
+    sub bU-sinh repha-sinh by bU_repha-sinh;  # bU + repha
+    sub bUu-sinh repha-sinh by bUu_repha-sinh;  # bUu + repha
+    sub bha-sinh repha-sinh by bha_repha-sinh;  # bha + repha
+    sub bhU-sinh repha-sinh by bhU_repha-sinh;  # bhU + repha
+    sub bhUu-sinh repha-sinh by bhUu_repha-sinh;  # bhUu + repha
+    sub ma-sinh repha-sinh by ma_repha-sinh;  # ma + repha
+    sub mba-sinh repha-sinh by mba_repha-sinh;  # mba + repha
+    sub ya-sinh repha-sinh by ya_repha-sinh;  # ya + repha
+    sub yU-sinh repha-sinh by yU_repha-sinh;  # yU + repha
+    sub yUu-sinh repha-sinh by yUu_repha-sinh;  # yUu + repha
+    sub va-sinh repha-sinh by va_repha-sinh;  # va + repha
+    sub vU-sinh repha-sinh by vU_repha-sinh;  # vU + repha
+    sub vUu-sinh repha-sinh by vUu_repha-sinh;  # vUu + repha
+    sub sha-sinh repha-sinh by sha_repha-sinh;  # sha + repha
+    sub shU-sinh repha-sinh by shU_repha-sinh;  # shU + repha
+    sub shUu-sinh repha-sinh by shUu_repha-sinh;  # shUu + repha
+    sub ssa-sinh repha-sinh by ssa_repha-sinh;  # ssa + repha
+    sub ssU-sinh repha-sinh by ssU_repha-sinh;  # ssU + repha
+    sub ssUu-sinh repha-sinh by ssUu_repha-sinh;  # ssUu + repha
+    sub sa-sinh repha-sinh by sa_repha-sinh;  # sa + repha
+    sub sU-sinh repha-sinh by sU_repha-sinh;  # sU + repha
+    sub sUu-sinh repha-sinh by sUu_repha-sinh;  # sUu + repha
+    sub ha-sinh repha-sinh by ha_repha-sinh;  # ha + repha
+    sub hU-sinh repha-sinh by hU_repha-sinh;  # hU + repha
+    sub hUu-sinh repha-sinh by hUu_repha-sinh;  # hUu + repha
+    sub fa-sinh repha-sinh by fa_repha-sinh;  # fa + repha
+    sub fU-sinh repha-sinh by fU_repha-sinh;  # fU + repha
+    sub fUu-sinh repha-sinh by fUu_repha-sinh;  # fUu + repha
+    sub jnya-sinh repha-sinh by jnya_repha-sinh;  # jnya + repha
+    sub nyja-sinh repha-sinh by nyja_repha-sinh;  # nyja + repha
+    sub yasign-sinh repha-sinh by yasign_repha-sinh;  # yasign + repha
+} RephLigatures;";
+tag = psts;
+}
+);
+fontMaster = (
+{
+axesValues = (
+100,
+100
+);
+id = "F0029E70-666A-46B3-82F3-BCA8DA6C0FED";
+metricValues = (
+{
+over = 15;
+pos = 553;
+},
+{
+},
+{
+},
+{
+},
+{
+over = -15;
+pos = -184;
+}
+);
+name = Regular;
+userData = {
+org.unifiedfontobject.normalizer.imageReferences = {
+};
+org.unifiedfontobject.normalizer.modTimes = "version: 0.3.3.dev0
+1535427679.0 A_rchaicE_ight.glif
+1535427680.0 A_rchaicE_ighty.glif
+1535427680.0 A_rchaicF_ifty.glif
+1535427680.0 A_rchaicF_ive.glif
+1535427680.0 A_rchaicF_orty.glif
+1535427680.0 A_rchaicF_our.glif
+1535427680.0 A_rchaicH_undred.glif
+1535427679.0 A_rchaicN_ine.glif
+1535427680.0 A_rchaicN_inety.glif
+1535427680.0 A_rchaicO_ne.glif
+1535427679.0 A_rchaicS_even.glif
+1535427680.0 A_rchaicS_eventy.glif
+1535427680.0 A_rchaicS_ix.glif
+1535427680.0 A_rchaicS_ixty.glif
+1535427680.0 A_rchaicT_en.glif
+1535427679.0 A_rchaicT_hirty.glif
+1535427679.0 A_rchaicT_housand.glif
+1535427680.0 A_rchaicT_hree.glif
+1535427680.0 A_rchaicT_wenty.glif
+1535427680.0 A_rchaicT_wo.glif
+1535427680.0 C_R_.glif
+1535427680.0 L_ithE_ight.glif
+1535427679.0 L_ithF_ive.glif
+1535427680.0 L_ithF_our.glif
+1535427680.0 L_ithN_ine.glif
+1535427680.0 L_ithO_ne.glif
+1535427680.0 L_ithS_even.glif
+1535427680.0 L_ithS_ix.glif
+1535427680.0 L_ithT_hree.glif
+1535427679.0 L_ithT_wo.glif
+1535427679.0 L_ithZ_ero.glif
+1535427680.0 N_U_L_L_.glif
+1535427680.0 anusvara.glif
+1535427679.0 asciicircum.glif
+1535427679.0 asciitilde.glif
+1535427681.0 asterisk.glif
+1535427679.0 backslash.glif
+1535427679.0 bar.glif
+1535427680.0 braceleft.glif
+1535427680.0 braceright.glif
+1535427679.0 bracketleft.glif
+1535427681.0 bracketright.glif
+1535427680.0 colon.glif
+1535427679.0 comma.glif
+1535427679.0 dottedcircle.glif
+1535427680.0 eight.glif
+1535427679.0 ellipsis.glif
+1535427680.0 equal.glif
+1535427680.0 exclam.glif
+1535427680.0 five.glif
+1535427679.0 four.glif
+1535427679.0 greater.glif
+1535427680.0 hyphen.glif
+1535427680.0 less.glif
+1535427679.0 nine.glif
+1535427558.0 notdef.glif
+1535427680.0 null.glif
+1535427680.0 numbersign.glif
+1535427680.0 one.glif
+1535427680.0 parenleft.glif
+1535427680.0 parenright.glif
+1535427680.0 period.glif
+1535427680.0 plus.glif
+1535427680.0 question.glif
+1535427680.0 quotedbl.glif
+1535427680.0 quotesingle.glif
+1535427680.0 semicolon.glif
+1535427680.0 seven.glif
+1535427679.0 sinA_.glif
+1535427680.0 sinA_a.glif
+1535427680.0 sinA_ae.glif
+1535427681.0 sinA_e.glif
+1535427681.0 sinA_i.glif
+1535427558.0 sinA_nusvara.glif
+1535427680.0 sinA_u.glif
+1535427558.0 sinB_.virama.glif
+1535427558.0 sinB_I_.glif
+1535427558.0 sinB_I_i.glif
+1535427558.0 sinB_R_.virama.glif
+1535427558.0 sinB_R_I_.glif
+1535427558.0 sinB_R_I_i.glif
+1535427558.0 sinB_R_a.glif
+1535427558.0 sinB_U_.glif
+1535427558.0 sinB_U_.reph.glif
+1535427558.0 sinB_U_u.glif
+1535427558.0 sinB_U_u.reph.glif
+1535427680.0 sinB_a.glif
+1535427558.0 sinB_a.reph.glif
+1535427558.0 sinB_h.virama.glif
+1535427558.0 sinB_hA_a.glif
+1535427558.0 sinB_hA_a.virama.glif
+1535427558.0 sinB_hI_.glif
+1535427558.0 sinB_hI_i.glif
+1535427558.0 sinB_hR_.virama.glif
+1535427558.0 sinB_hR_I_.glif
+1535427558.0 sinB_hR_I_i.glif
+1535427558.0 sinB_hR_a.glif
+1535427680.0 sinB_hR_a.virama.glif
+1535427558.0 sinB_hU_.glif
+1535427558.0 sinB_hU_.reph.glif
+1535427558.0 sinB_hU_u.glif
+1535427558.0 sinB_hU_u.reph.glif
+1535427679.0 sinB_ha.glif
+1535427558.0 sinB_ha.reph.glif
+1535427558.0 sinC_.virama.glif
+1535427558.0 sinC_I_.glif
+1535427558.0 sinC_I_i.glif
+1535427558.0 sinC_R_.virama.glif
+1535427558.0 sinC_R_I_.glif
+1535427558.0 sinC_R_I_i.glif
+1535427558.0 sinC_R_a.glif
+1535427558.0 sinC_U_.glif
+1535427558.0 sinC_U_.reph.glif
+1535427558.0 sinC_U_u.glif
+1535427558.0 sinC_U_u.reph.glif
+1535427680.0 sinC_a.glif
+1535427558.0 sinC_a.reph.glif
+1535427558.0 sinC_h.virama.glif
+1535427558.0 sinC_hI_.glif
+1535427558.0 sinC_hI_i.glif
+1535427558.0 sinC_hR_.virama.glif
+1535427558.0 sinC_hR_I_.glif
+1535427558.0 sinC_hR_I_i.glif
+1535427558.0 sinC_hR_a.glif
+1535427558.0 sinC_hU_.glif
+1535427558.0 sinC_hU_.reph.glif
+1535427558.0 sinC_hU_u.glif
+1535427558.0 sinC_hU_u.reph.glif
+1535427679.0 sinC_ha.glif
+1535427558.0 sinC_ha.reph.glif
+1535427558.0 sinD_.virama.glif
+1535427679.0 sinD_A_a.ss01.glif
+1535427681.0 sinD_A_a.virama.ss01.glif
+1535427680.0 sinD_A_ae.ss01.glif
+1535427680.0 sinD_A_e.ss01.glif
+1535427680.0 sinD_D_dh.virama.glif
+1535427680.0 sinD_D_hI_.glif
+1535427680.0 sinD_D_hI_i.glif
+1535427680.0 sinD_D_hU_.glif
+1535427679.0 sinD_D_hU_u.glif
+1535427680.0 sinD_D_ha.glif
+1535427558.0 sinD_I_.glif
+1535427558.0 sinD_I_i.glif
+1535427558.0 sinD_R_.virama.glif
+1535427558.0 sinD_R_I_.glif
+1535427558.0 sinD_R_I_i.glif
+1535427558.0 sinD_R_a.alt.glif
+1535427558.0 sinD_R_a.glif
+1535427558.0 sinD_U_.glif
+1535427558.0 sinD_U_.reph.glif
+1535427558.0 sinD_U_u.glif
+1535427558.0 sinD_U_u.reph.glif
+1535427680.0 sinD_V_.virama.glif
+1535427680.0 sinD_V_I_.glif
+1535427679.0 sinD_V_I_i.glif
+1535427680.0 sinD_V_U_.glif
+1535427681.0 sinD_V_U_u.glif
+1535427680.0 sinD_V_a.glif
+1535427679.0 sinD_Y_A_a.post.ss01.glif
+1535427680.0 sinD_Y_O_o.post.ss01.glif
+1535427680.0 sinD_Y_U_u.post.ss01.glif
+1535427680.0 sinD_Y_a.post.ss01.glif
+1535427680.0 sinD_Y_u.post.ss01.glif
+1535427680.0 sinD_a.glif
+1535427558.0 sinD_a.reph.glif
+1535427558.0 sinD_d.virama.glif
+1535427558.0 sinD_dI_.glif
+1535427558.0 sinD_dI_i.glif
+1535427558.0 sinD_dR_.virama.glif
+1535427558.0 sinD_dR_I_.glif
+1535427558.0 sinD_dR_I_i.glif
+1535427558.0 sinD_dR_a.glif
+1535427558.0 sinD_dU_.glif
+1535427558.0 sinD_dU_.reph.glif
+1535427558.0 sinD_dU_u.glif
+1535427558.0 sinD_dU_u.reph.glif
+1535427680.0 sinD_da.glif
+1535427558.0 sinD_da.reph.glif
+1535427679.0 sinD_da.virama.glif
+1535427558.0 sinD_dh.virama.glif
+1535427558.0 sinD_dhI_.glif
+1535427558.0 sinD_dhI_i.glif
+1535427558.0 sinD_dhR_.virama.glif
+1535427558.0 sinD_dhR_I_.glif
+1535427558.0 sinD_dhR_I_i.glif
+1535427558.0 sinD_dhR_a.glif
+1535427558.0 sinD_dhU_.glif
+1535427558.0 sinD_dhU_.reph.glif
+1535427558.0 sinD_dhU_u.glif
+1535427558.0 sinD_dhU_u.reph.glif
+1535427679.0 sinD_dha.glif
+1535427558.0 sinD_dha.reph.glif
+1535427558.0 sinD_h.virama.glif
+1535427558.0 sinD_hI_.glif
+1535427558.0 sinD_hI_i.glif
+1535427558.0 sinD_hR_.virama.glif
+1535427558.0 sinD_hR_I_.glif
+1535427558.0 sinD_hR_I_i.glif
+1535427558.0 sinD_hR_a.glif
+1535427558.0 sinD_hU_.glif
+1535427558.0 sinD_hU_.reph.glif
+1535427558.0 sinD_hU_u.glif
+1535427558.0 sinD_hU_u.reph.glif
+1535427680.0 sinD_ha.glif
+1535427558.0 sinD_ha.reph.glif
+1535427680.0 sinD_rI_.glif
+1535427680.0 sinD_rI_i.glif
+1535427680.0 sinD_ra.glif
+1535427680.0 sinD_vocR_.glif
+1535427679.0 sinD_vocR_r.glif
+1535427679.0 sinE_.glif
+1535427679.0 sinE_e.glif
+1535427558.0 sinF_.virama.glif
+1535427558.0 sinF_A_a.glif
+1535427558.0 sinF_A_a.virama.glif
+1535427558.0 sinF_I_.glif
+1535427558.0 sinF_I_i.glif
+1535427558.0 sinF_R_.virama.glif
+1535427558.0 sinF_R_I_.glif
+1535427558.0 sinF_R_I_i.glif
+1535427558.0 sinF_R_a.glif
+1535427558.0 sinF_U_.glif
+1535427558.0 sinF_U_.reph.glif
+1535427558.0 sinF_U_u.glif
+1535427558.0 sinF_U_u.reph.glif
+1535427679.0 sinF_a.glif
+1535427558.0 sinF_a.reph.glif
+1535427558.0 sinG_.virama.glif
+1535427558.0 sinG_A_a.glif
+1535427558.0 sinG_A_a.virama.glif
+1535427681.0 sinG_D_ha.glif
+1535427558.0 sinG_I_.glif
+1535427558.0 sinG_I_i.glif
+1535427558.0 sinG_R_.virama.glif
+1535427558.0 sinG_R_I_.glif
+1535427558.0 sinG_R_I_i.glif
+1535427558.0 sinG_R_a.glif
+1535427558.0 sinG_U_.glif
+1535427558.0 sinG_U_.reph.glif
+1535427558.0 sinG_U_u.glif
+1535427558.0 sinG_U_u.reph.glif
+1535427680.0 sinG_a.glif
+1535427558.0 sinG_a.reph.glif
+1535427558.0 sinG_h.virama.glif
+1535427558.0 sinG_hI_.glif
+1535427558.0 sinG_hI_i.glif
+1535427558.0 sinG_hR_.virama.glif
+1535427558.0 sinG_hR_I_.glif
+1535427558.0 sinG_hR_I_i.glif
+1535427558.0 sinG_hR_a.glif
+1535427558.0 sinG_hU_.glif
+1535427558.0 sinG_hU_.reph.glif
+1535427558.0 sinG_hU_u.glif
+1535427558.0 sinG_hU_u.reph.glif
+1535427680.0 sinG_ha.glif
+1535427558.0 sinG_ha.reph.glif
+1535427558.0 sinH_.virama.glif
+1535427558.0 sinH_A_a.glif
+1535427558.0 sinH_A_a.virama.glif
+1535427558.0 sinH_I_.glif
+1535427558.0 sinH_I_i.glif
+1535427558.0 sinH_R_.virama.glif
+1535427558.0 sinH_R_I_.glif
+1535427558.0 sinH_R_I_i.glif
+1535427558.0 sinH_R_a.glif
+1535427558.0 sinH_U_.glif
+1535427558.0 sinH_U_.reph.glif
+1535427558.0 sinH_U_u.glif
+1535427558.0 sinH_U_u.reph.glif
+1535427680.0 sinH_a.glif
+1535427558.0 sinH_a.reph.glif
+1535427679.0 sinI_.glif
+1535427680.0 sinI_i.glif
+1535427558.0 sinJ_.virama.glif
+1535427558.0 sinJ_I_.glif
+1535427558.0 sinJ_I_i.glif
+1535427558.0 sinJ_R_.virama.glif
+1535427558.0 sinJ_R_I_.glif
+1535427558.0 sinJ_R_I_i.glif
+1535427558.0 sinJ_R_a.glif
+1535427558.0 sinJ_U_.glif
+1535427558.0 sinJ_U_.reph.glif
+1535427558.0 sinJ_U_u.glif
+1535427558.0 sinJ_U_u.reph.glif
+1535427680.0 sinJ_a.glif
+1535427558.0 sinJ_a.reph.glif
+1535427558.0 sinJ_h.virama.glif
+1535427558.0 sinJ_hI_.glif
+1535427558.0 sinJ_hI_i.glif
+1535427558.0 sinJ_hR_.virama.glif
+1535427558.0 sinJ_hR_I_.glif
+1535427558.0 sinJ_hR_I_i.glif
+1535427558.0 sinJ_hR_a.glif
+1535427558.0 sinJ_hU_.glif
+1535427558.0 sinJ_hU_.reph.glif
+1535427558.0 sinJ_hU_u.glif
+1535427558.0 sinJ_hU_u.reph.glif
+1535427679.0 sinJ_ha.glif
+1535427558.0 sinJ_ha.reph.glif
+1535427558.0 sinJ_ny.virama.glif
+1535427680.0 sinJ_nyA_a.ss01.glif
+1535427680.0 sinJ_nyA_a.virama.ss01.glif
+1535427679.0 sinJ_nyA_e.ss01.glif
+1535427680.0 sinJ_nyA_ee.ss01.glif
+1535427558.0 sinJ_nyI_.glif
+1535427558.0 sinJ_nyI_i.glif
+1535427680.0 sinJ_nyR_.virama.glif
+1535427680.0 sinJ_nyR_I_.glif
+1535427680.0 sinJ_nyR_I_i.glif
+1535427680.0 sinJ_nyR_a.glif
+1535427558.0 sinJ_nyU_.glif
+1535427558.0 sinJ_nyU_u.glif
+1535427680.0 sinJ_nya.glif
+1535427558.0 sinJ_nya.reph.glif
+1535427558.0 sinK_.virama.glif
+1535427558.0 sinK_A_a.glif
+1535427558.0 sinK_A_a.virama.glif
+1535427558.0 sinK_I_.glif
+1535427558.0 sinK_I_i.glif
+1535427558.0 sinK_R_.virama.glif
+1535427558.0 sinK_R_I_.glif
+1535427558.0 sinK_R_I_i.glif
+1535427558.0 sinK_R_a.glif
+1535427680.0 sinK_S_s.virama.glif
+1535427680.0 sinK_S_sI_.glif
+1535427680.0 sinK_S_sI_i.glif
+1535427680.0 sinK_S_sU_.glif
+1535427680.0 sinK_S_sU_u.glif
+1535427680.0 sinK_S_sa.glif
+1535427558.0 sinK_U_.glif
+1535427558.0 sinK_U_.reph.glif
+1535427558.0 sinK_U_u.glif
+1535427558.0 sinK_U_u.reph.glif
+1535427680.0 sinK_V_.virama.glif
+1535427680.0 sinK_V_I_.glif
+1535427680.0 sinK_V_I_i.glif
+1535427680.0 sinK_V_U_.glif
+1535427679.0 sinK_V_U_u.glif
+1535427680.0 sinK_V_a.glif
+1535427679.0 sinK_a.glif
+1535427558.0 sinK_a.reph.glif
+1535427558.0 sinK_h.virama.glif
+1535427558.0 sinK_hI_.glif
+1535427558.0 sinK_hI_i.glif
+1535427558.0 sinK_hR_.virama.glif
+1535427558.0 sinK_hR_I_.glif
+1535427558.0 sinK_hR_I_i.glif
+1535427558.0 sinK_hR_a.glif
+1535427558.0 sinK_hU_.glif
+1535427558.0 sinK_hU_.reph.glif
+1535427558.0 sinK_hU_u.glif
+1535427558.0 sinK_hU_u.reph.glif
+1535427679.0 sinK_ha.glif
+1535427558.0 sinK_ha.reph.glif
+1535427680.0 sinK_undaliya.glif
+1535427558.0 sinL_.virama.glif
+1535427558.0 sinL_I_.glif
+1535427558.0 sinL_I_i.glif
+1535427558.0 sinL_U_.glif
+1535427558.0 sinL_U_u.glif
+1535427680.0 sinL_a.glif
+1535427558.0 sinL_l.virama.glif
+1535427558.0 sinL_lI_.glif
+1535427558.0 sinL_lI_i.glif
+1535427558.0 sinL_lU_.glif
+1535427558.0 sinL_lU_u.glif
+1535427680.0 sinL_la.glif
+1535427558.0 sinM_.virama.glif
+1535427558.0 sinM_I_.glif
+1535427558.0 sinM_I_i.glif
+1535427679.0 sinM_R_.virama.glif
+1535427679.0 sinM_R_I_.glif
+1535427680.0 sinM_R_I_i.glif
+1535427679.0 sinM_R_a.glif
+1535427558.0 sinM_U_.glif
+1535427558.0 sinM_U_u.glif
+1535427680.0 sinM_a.glif
+1535427558.0 sinM_a.reph.glif
+1535427679.0 sinM_atraA_a.glif
+1535427558.0 sinM_atraA_a.virama.glif
+1535427680.0 sinM_atraA_ae.glif
+1535427679.0 sinM_atraA_e.glif
+1535427680.0 sinM_atraA_ea.glif
+1535427679.0 sinM_atraA_i.glif
+1535427679.0 sinM_atraA_u.glif
+1535427680.0 sinM_atraE_.glif
+1535427680.0 sinM_atraE_e.glif
+1535427680.0 sinM_atraI_.alt.glif
+1535427680.0 sinM_atraI_.alt1.glif
+1535427680.0 sinM_atraI_.alt2.glif
+1535427680.0 sinM_atraI_.alt4.glif
+1535427680.0 sinM_atraI_.glif
+1535427680.0 sinM_atraI_i.alt.glif
+1535427679.0 sinM_atraI_i.alt1.glif
+1535427679.0 sinM_atraI_i.alt2.glif
+1535427679.0 sinM_atraI_i.alt3.glif
+1535427680.0 sinM_atraI_i.glif
+1535427679.0 sinM_atraL_l.glif
+1535427679.0 sinM_atraL_s.glif
+1535427680.0 sinM_atraO_.glif
+1535427679.0 sinM_atraO_o.glif
+1535427680.0 sinM_atraR_.glif
+1535427680.0 sinM_atraR_r.glif
+1535427679.0 sinM_atraU_.alt.glif
+1535427680.0 sinM_atraU_.alt1.glif
+1535427680.0 sinM_atraU_.alt2.glif
+1535427680.0 sinM_atraU_.alt3.glif
+1535427558.0 sinM_atraU_.alt5.glif
+1535427680.0 sinM_atraU_.glif
+1535427680.0 sinM_atraU_u.alt.glif
+1535427680.0 sinM_atraU_u.alt1.glif
+1535427680.0 sinM_atraU_u.alt2.glif
+1535427680.0 sinM_atraU_u.alt3.glif
+1535427558.0 sinM_atraU_u.alt5.glif
+1535427680.0 sinM_atraU_u.glif
+1535427680.0 sinM_b.glif
+1535427558.0 sinM_b.virama.glif
+1535427558.0 sinM_bI_.glif
+1535427558.0 sinM_bI_i.glif
+1535427558.0 sinM_bU_.glif
+1535427558.0 sinM_bU_u.glif
+1535427680.0 sinM_ba.glif
+1535427558.0 sinM_ba.reph.glif
+1535427558.0 sinN_.virama.glif
+1535427558.0 sinN_A_a.glif
+1535427558.0 sinN_A_a.virama.glif
+1535427680.0 sinN_D_.virama.glif
+1535427679.0 sinN_D_A_a.ss01.glif
+1535427680.0 sinN_D_A_a.virama.ss01.glif
+1535427680.0 sinN_D_A_e.ss01.glif
+1535427680.0 sinN_D_A_ee.ss01.glif
+1535427680.0 sinN_D_I_.glif
+1535427680.0 sinN_D_I_i.glif
+1535427679.0 sinN_D_R_I_.glif
+1535427680.0 sinN_D_R_I_i.glif
+1535427679.0 sinN_D_R_a.glif
+1535427680.0 sinN_D_U_.glif
+1535427680.0 sinN_D_U_u.glif
+1535427680.0 sinN_D_a.glif
+1535427680.0 sinN_D_h.virama.glif
+1535427680.0 sinN_D_hI_.glif
+1535427680.0 sinN_D_hI_i.glif
+1535427680.0 sinN_D_hU_.glif
+1535427679.0 sinN_D_hU_u.glif
+1535427679.0 sinN_D_ha.glif
+1535427558.0 sinN_I_.glif
+1535427558.0 sinN_I_i.glif
+1535427681.0 sinN_T_h.virama.glif
+1535427680.0 sinN_T_hI_.glif
+1535427680.0 sinN_T_hI_i.glif
+1535427680.0 sinN_T_hU_.glif
+1535427679.0 sinN_T_hU_u.glif
+1535427680.0 sinN_T_ha.glif
+1535427558.0 sinN_U_.glif
+1535427558.0 sinN_U_u.glif
+1535427680.0 sinN_V_.virama.glif
+1535427680.0 sinN_V_I_.glif
+1535427680.0 sinN_V_I_i.glif
+1535427680.0 sinN_V_U_.glif
+1535427679.0 sinN_V_U_u.glif
+1535427680.0 sinN_V_a.glif
+1535427680.0 sinN_a.glif
+1535427558.0 sinN_a.reph.glif
+1535427558.0 sinN_d.virama.glif
+1535427680.0 sinN_dA_a.ss01.glif
+1535427679.0 sinN_dA_a.virama.ss01.glif
+1535427679.0 sinN_dA_ae.ss01.glif
+1535427680.0 sinN_dA_e.ss01.glif
+1535427558.0 sinN_dI_.glif
+1535427558.0 sinN_dI_i.glif
+1535427679.0 sinN_dR_a.glif
+1535427558.0 sinN_dU_.glif
+1535427558.0 sinN_dU_u.glif
+1535427680.0 sinN_da.glif
+1535427558.0 sinN_da.reph.glif
+1535427680.0 sinN_dda.glif
+1535427558.0 sinN_dj.virama.glif
+1535427558.0 sinN_djI_.glif
+1535427558.0 sinN_djI_i.glif
+1535427680.0 sinN_djR_.virama.glif
+1535427679.0 sinN_djR_a.glif
+1535427558.0 sinN_djU_.glif
+1535427558.0 sinN_djU_u.glif
+1535427680.0 sinN_dja.glif
+1535427558.0 sinN_dja.reph.glif
+1535427558.0 sinN_g.virama.glif
+1535427558.0 sinN_gI_.glif
+1535427558.0 sinN_gI_i.glif
+1535427558.0 sinN_gU_.glif
+1535427558.0 sinN_gU_u.glif
+1535427680.0 sinN_ga.glif
+1535427558.0 sinN_ga.reph.glif
+1535427558.0 sinN_n.virama.glif
+1535427558.0 sinN_nA_a.glif
+1535427558.0 sinN_nA_a.virama.glif
+1535427558.0 sinN_nI_.glif
+1535427558.0 sinN_nI_i.glif
+1535427558.0 sinN_nU_.glif
+1535427558.0 sinN_nU_u.glif
+1535427681.0 sinN_na.glif
+1535427558.0 sinN_na.reph.glif
+1535427558.0 sinN_ndd.virama.glif
+1535427558.0 sinN_nddI_.glif
+1535427558.0 sinN_nddI_i.glif
+1535427558.0 sinN_nddU_.glif
+1535427558.0 sinN_nddU_u.glif
+1535427679.0 sinN_ndda.glif
+1535427558.0 sinN_ndda.reph.glif
+1535427558.0 sinN_ng.virama.glif
+1535427558.0 sinN_ngA_a.glif
+1535427558.0 sinN_ngA_a.virama.glif
+1535427558.0 sinN_ngI_.glif
+1535427558.0 sinN_ngI_i.glif
+1535427558.0 sinN_ngU_.glif
+1535427558.0 sinN_ngU_u.glif
+1535427680.0 sinN_nga.glif
+1535427558.0 sinN_nga.reph.glif
+1535427558.0 sinN_y.virama.glif
+1535427558.0 sinN_yA_a.glif
+1535427680.0 sinN_yA_a.ss01.glif
+1535427679.0 sinN_yA_a.virama.ss01.glif
+1535427680.0 sinN_yA_e.ss01.glif
+1535427680.0 sinN_yA_ee.ss01.glif
+1535427558.0 sinN_yI_.glif
+1535427558.0 sinN_yI_i.glif
+1535427680.0 sinN_yR_.virama.glif
+1535427679.0 sinN_yR_I_.glif
+1535427680.0 sinN_yR_I_i.glif
+1535427679.0 sinN_yR_a.glif
+1535427558.0 sinN_yU_.glif
+1535427558.0 sinN_yU_u.glif
+1535427679.0 sinN_ya.glif
+1535427558.0 sinN_ya.reph.glif
+1535427679.0 sinO_.glif
+1535427679.0 sinO_o.glif
+1535427558.0 sinP_.virama.glif
+1535427558.0 sinP_I_.glif
+1535427558.0 sinP_I_i.glif
+1535427558.0 sinP_R_.virama.glif
+1535427558.0 sinP_R_I_.glif
+1535427558.0 sinP_R_I_i.glif
+1535427558.0 sinP_R_a.glif
+1535427558.0 sinP_U_.glif
+1535427558.0 sinP_U_.reph.glif
+1535427558.0 sinP_U_u.glif
+1535427558.0 sinP_U_u.reph.glif
+1535427679.0 sinP_a.glif
+1535427558.0 sinP_a.reph.glif
+1535427558.0 sinP_h.virama.glif
+1535427558.0 sinP_hI_.glif
+1535427558.0 sinP_hI_i.glif
+1535427558.0 sinP_hR_.virama.glif
+1535427558.0 sinP_hR_I_.glif
+1535427558.0 sinP_hR_I_i.glif
+1535427558.0 sinP_hR_a.glif
+1535427558.0 sinP_hU_.glif
+1535427558.0 sinP_hU_.reph.glif
+1535427558.0 sinP_hU_u.glif
+1535427558.0 sinP_hU_u.reph.glif
+1535427680.0 sinP_ha.glif
+1535427558.0 sinP_ha.reph.glif
+1535427558.0 sinR_.virama.glif
+1535427558.0 sinR_A_ae.glif
+1535427558.0 sinR_A_e.glif
+1535427558.0 sinR_I_.glif
+1535427558.0 sinR_I_i.glif
+1535427558.0 sinR_U_.glif
+1535427558.0 sinR_U_u.glif
+1535427680.0 sinR_a.glif
+1535427558.0 sinR_akar.glif
+1535427679.0 sinR_akar.long.glif
+1535427679.0 sinR_akar.medium.glif
+1535427680.0 sinR_akar.short.glif
+1535427558.0 sinR_eph.glif
+1535427558.0 sinS_.virama.glif
+1535427558.0 sinS_I_.glif
+1535427558.0 sinS_I_i.glif
+1535427558.0 sinS_R_.virama.glif
+1535427558.0 sinS_R_I_.glif
+1535427558.0 sinS_R_I_i.glif
+1535427558.0 sinS_R_a.glif
+1535427558.0 sinS_U_.glif
+1535427558.0 sinS_U_.reph.glif
+1535427558.0 sinS_U_u.glif
+1535427558.0 sinS_U_u.reph.glif
+1535427680.0 sinS_a.glif
+1535427558.0 sinS_a.reph.glif
+1535427558.0 sinS_h.virama.glif
+1535427558.0 sinS_hI_.glif
+1535427558.0 sinS_hI_i.glif
+1535427558.0 sinS_hR_.virama.glif
+1535427558.0 sinS_hR_I_.glif
+1535427558.0 sinS_hR_I_i.glif
+1535427558.0 sinS_hR_a.glif
+1535427558.0 sinS_hU_.glif
+1535427558.0 sinS_hU_.reph.glif
+1535427558.0 sinS_hU_u.glif
+1535427558.0 sinS_hU_u.reph.glif
+1535427680.0 sinS_ha.glif
+1535427558.0 sinS_ha.reph.glif
+1535427558.0 sinS_s.virama.glif
+1535427558.0 sinS_sI_.glif
+1535427558.0 sinS_sI_i.glif
+1535427558.0 sinS_sR_.virama.glif
+1535427558.0 sinS_sR_I_.glif
+1535427558.0 sinS_sR_I_i.glif
+1535427558.0 sinS_sR_a.glif
+1535427558.0 sinS_sU_.glif
+1535427558.0 sinS_sU_.reph.glif
+1535427558.0 sinS_sU_u.glif
+1535427558.0 sinS_sU_u.reph.glif
+1535427680.0 sinS_sa.glif
+1535427558.0 sinS_sa.reph.glif
+1535427558.0 sinT_.virama.glif
+1535427558.0 sinT_A_a.glif
+1535427558.0 sinT_A_a.virama.glif
+1535427558.0 sinT_I_.glif
+1535427558.0 sinT_I_i.glif
+1535427558.0 sinT_R_.virama.glif
+1535427558.0 sinT_R_I_.glif
+1535427558.0 sinT_R_I_i.glif
+1535427558.0 sinT_R_a.glif
+1535427679.0 sinT_T_h.virama.glif
+1535427680.0 sinT_T_hI_.glif
+1535427679.0 sinT_T_hI_i.glif
+1535427680.0 sinT_T_hU_.glif
+1535427679.0 sinT_T_hU_u.glif
+1535427558.0 sinT_T_ha.glif
+1535427558.0 sinT_U_.glif
+1535427558.0 sinT_U_.reph.glif
+1535427558.0 sinT_U_u.glif
+1535427558.0 sinT_U_u.reph.glif
+1535427679.0 sinT_V_.virama.glif
+1535427680.0 sinT_V_I_.glif
+1535427680.0 sinT_V_I_i.glif
+1535427680.0 sinT_V_U_.glif
+1535427679.0 sinT_V_U_u.glif
+1535427680.0 sinT_V_a.glif
+1535427680.0 sinT_a.glif
+1535427558.0 sinT_a.reph.glif
+1535427558.0 sinT_h.virama.glif
+1535427558.0 sinT_hI_.glif
+1535427558.0 sinT_hI_i.glif
+1535427558.0 sinT_hR_.virama.glif
+1535427558.0 sinT_hR_I_.glif
+1535427558.0 sinT_hR_I_i.glif
+1535427558.0 sinT_hR_a.glif
+1535427558.0 sinT_hU_.glif
+1535427558.0 sinT_hU_.reph.glif
+1535427558.0 sinT_hU_u.glif
+1535427558.0 sinT_hU_u.reph.glif
+1535427679.0 sinT_ha.glif
+1535427558.0 sinT_ha.reph.glif
+1535427558.0 sinT_t.virama.glif
+1535427558.0 sinT_tI_.glif
+1535427558.0 sinT_tI_i.glif
+1535427558.0 sinT_tR_.virama.glif
+1535427558.0 sinT_tR_I_.glif
+1535427558.0 sinT_tR_I_i.glif
+1535427558.0 sinT_tR_a.glif
+1535427680.0 sinT_tT_th.virama.glif
+1535427680.0 sinT_tT_thI_.glif
+1535427680.0 sinT_tT_thI_i.glif
+1535427680.0 sinT_tT_thU_.glif
+1535427680.0 sinT_tT_thU_u.glif
+1535427680.0 sinT_tT_tha.glif
+1535427558.0 sinT_tU_.glif
+1535427558.0 sinT_tU_.reph.glif
+1535427558.0 sinT_tU_u.glif
+1535427558.0 sinT_tU_u.reph.glif
+1535427679.0 sinT_ta.glif
+1535427558.0 sinT_ta.reph.glif
+1535427558.0 sinT_th.virama.glif
+1535427558.0 sinT_thI_.glif
+1535427558.0 sinT_thI_i.glif
+1535427558.0 sinT_thR_.virama.glif
+1535427558.0 sinT_thR_I_.glif
+1535427558.0 sinT_thR_I_i.glif
+1535427558.0 sinT_thR_a.glif
+1535427558.0 sinT_thU_.glif
+1535427558.0 sinT_thU_.reph.glif
+1535427558.0 sinT_thU_u.glif
+1535427558.0 sinT_thU_u.reph.glif
+1535427680.0 sinT_tha.glif
+1535427558.0 sinT_tha.reph.glif
+1535427679.0 sinU_.glif
+1535427679.0 sinU_u.glif
+1535427558.0 sinV_.virama.glif
+1535427558.0 sinV_I_.glif
+1535427558.0 sinV_I_i.glif
+1535427558.0 sinV_R_.virama.glif
+1535427558.0 sinV_R_I_.glif
+1535427558.0 sinV_R_I_i.glif
+1535427558.0 sinV_R_a.glif
+1535427558.0 sinV_U_.glif
+1535427558.0 sinV_U_.reph.glif
+1535427558.0 sinV_U_u.glif
+1535427558.0 sinV_U_u.reph.glif
+1535427680.0 sinV_a.glif
+1535427558.0 sinV_a.reph.glif
+1535427558.0 sinV_irama.alt.glif
+1535427680.0 sinV_irama.glif
+1535427558.0 sinV_isarga.glif
+1535427558.0 sinY_.post.virama.glif
+1535427558.0 sinY_.virama.glif
+1535427558.0 sinY_I_.glif
+1535427558.0 sinY_I_.post.glif
+1535427558.0 sinY_I_i.glif
+1535427558.0 sinY_I_i.post.glif
+1535427558.0 sinY_U_.glif
+1535427558.0 sinY_U_.post.glif
+1535427558.0 sinY_U_.post.reph.glif
+1535427558.0 sinY_U_.reph.glif
+1535427558.0 sinY_U_u.glif
+1535427558.0 sinY_U_u.post.glif
+1535427558.0 sinY_U_u.post.reph.glif
+1535427558.0 sinY_U_u.reph.glif
+1535427680.0 sinY_a.glif
+1535427558.0 sinY_a.post.glif
+1535427558.0 sinY_a.post.reph.glif
+1535427558.0 sinY_a.reph.glif
+1535427558.0 singN_aa.glif
+1535427680.0 sinkundaliya.glif
+1535427679.0 sinvocalicL_.glif
+1535427680.0 sinvocalicL_L_.glif
+1535427679.0 sinvocalicR_.glif
+1535427680.0 sinvocalicR_r.glif
+1535427679.0 six.glif
+1535427679.0 slash.glif
+1535427681.0 space.glif
+1535427680.0 three.glif
+1535427680.0 tmA_.glif
+1535427679.0 tmA_a.glif
+1535427680.0 tmA_bove.glif
+1535427680.0 tmA_i.glif
+1535427680.0 tmA_nusvara.glif
+1535427680.0 tmA_u.glif
+1535427680.0 tmA_uL_engthmark.glif
+1535427681.0 tmC_U_.glif
+1535427679.0 tmC_U_u.glif
+1535427679.0 tmC_a.glif
+1535427680.0 tmC_redit.glif
+1535427679.0 tmD_ay.glif
+1535427680.0 tmD_ebit.glif
+1535427680.0 tmE_.glif
+1535427680.0 tmE_e.glif
+1535427680.0 tmE_ight.glif
+1535427680.0 tmF_ive.glif
+1535427680.0 tmF_our.glif
+1535427679.0 tmH_a.glif
+1535427680.0 tmH_undred.glif
+1535427680.0 tmI_.glif
+1535427679.0 tmI_i.glif
+1535427679.0 tmJ_a.glif
+1535427679.0 tmK_S_sa.glif
+1535427679.0 tmK_U_.001.glif
+1535427679.0 tmK_U_.glif
+1535427680.0 tmK_U_u.glif
+1535427679.0 tmK_a.glif
+1535427679.0 tmL_I_.glif
+1535427558.0 tmL_U_.glif
+1535427558.0 tmL_U_u.glif
+1535427679.0 tmL_a.glif
+1535427558.0 tmL_lU_.glif
+1535427558.0 tmL_lU_u.glif
+1535427680.0 tmL_la.glif
+1535427558.0 tmL_llU_.glif
+1535427558.0 tmL_llU_u.glif
+1535427680.0 tmL_lla.glif
+1535427558.0 tmM_U_.glif
+1535427558.0 tmM_U_u.glif
+1535427680.0 tmM_a.glif
+1535427680.0 tmM_atraA_a.glif
+1535427679.0 tmM_atraA_i.alt.glif
+1535427680.0 tmM_atraA_i.glif
+1535427680.0 tmM_atraA_u.glif
+1535427680.0 tmM_atraE_.glif
+1535427679.0 tmM_atraE_e.glif
+1535427680.0 tmM_atraI_.alt1.glif
+1535427680.0 tmM_atraI_.alt2.glif
+1535427680.0 tmM_atraI_.alt3.glif
+1535427679.0 tmM_atraI_.alt4.glif
+1535427680.0 tmM_atraI_.alt5.glif
+1535427680.0 tmM_atraI_.alt6.glif
+1535427680.0 tmM_atraI_.alt7.glif
+1535427680.0 tmM_atraI_.glif
+1535427679.0 tmM_atraI_.stylalt1.glif
+1535427680.0 tmM_atraI_i.alt1.glif
+1535427680.0 tmM_atraI_i.glif
+1535427680.0 tmM_atraI_i.stylalt1.glif
+1535427680.0 tmM_atraO_.glif
+1535427679.0 tmM_atraO_o.glif
+1535427680.0 tmM_atraU_.alt1.glif
+1535427681.0 tmM_atraU_.glif
+1535427679.0 tmM_atraU_u.glif
+1535427679.0 tmM_onth.glif
+1535427680.0 tmN_U_.glif
+1535427680.0 tmN_U_u.glif
+1535427679.0 tmN_a.glif
+1535427558.0 tmN_gU_u.glif
+1535427680.0 tmN_ga.glif
+1535427681.0 tmN_ine.glif
+1535427680.0 tmN_nA_a.alt.glif
+1535427681.0 tmN_nU_.glif
+1535427680.0 tmN_nU_u.glif
+1535427679.0 tmN_na.glif
+1535427679.0 tmN_nnA_a.alt.glif
+1535427680.0 tmN_nnU_.glif
+1535427680.0 tmN_nnU_u.glif
+1535427680.0 tmN_nna.glif
+1535427679.0 tmN_umber.glif
+1535427558.0 tmN_yU_.glif
+1535427558.0 tmN_yU_u.glif
+1535427680.0 tmN_ya.glif
+1535427680.0 tmO_.glif
+1535427680.0 tmO_m.glif
+1535427680.0 tmO_ne.glif
+1535427680.0 tmO_o.glif
+1535427558.0 tmP_U_u.glif
+1535427679.0 tmP_a.glif
+1535427558.0 tmR_U_.glif
+1535427558.0 tmR_U_u.glif
+1535427680.0 tmR_a.glif
+1535427680.0 tmR_rA_a.alt.glif
+1535427679.0 tmR_rU_.glif
+1535427679.0 tmR_rU_u.glif
+1535427680.0 tmR_ra.glif
+1535427680.0 tmR_upee.glif
+1535427680.0 tmS_a.glif
+1535427680.0 tmS_even.glif
+1535427680.0 tmS_ha.glif
+1535427680.0 tmS_hree.glif
+1535427680.0 tmS_ix.glif
+1535427680.0 tmS_sa.glif
+1535427679.0 tmT_U_.glif
+1535427679.0 tmT_U_u.glif
+1535427680.0 tmT_a.glif
+1535427680.0 tmT_en.glif
+1535427680.0 tmT_housand.glif
+1535427680.0 tmT_hree.glif
+1535427680.0 tmT_tI_.glif
+1535427558.0 tmT_tI_i.glif
+1535427680.0 tmT_tU_.glif
+1535427680.0 tmT_tU_u.glif
+1535427680.0 tmT_ta.glif
+1535427679.0 tmT_wo.glif
+1535427679.0 tmU_.glif
+1535427679.0 tmU_u.glif
+1535427680.0 tmV_U_u.glif
+1535427680.0 tmV_a.glif
+1535427680.0 tmV_irama.glif
+1535427680.0 tmV_isarga.glif
+1535427558.0 tmY_U_u.glif
+1535427679.0 tmY_a.glif
+1535427679.0 tmY_ear.glif
+1535427680.0 tmZ_ero.glif
+1535427679.0 two.glif
+1535427679.0 underscore.glif
+1535427679.0 visarga.glif
+1535427679.0 zero.glif
+1535427679.0 zerowidthjoiner.glif
+1535427680.0 zwnj.glif";
+};
+}
+);
+instances = (
+{
+axesValues = (
+100,
+100
+);
+instanceInterpolations = {
+"F0029E70-666A-46B3-82F3-BCA8DA6C0FED" = 1;
+};
+name = Regular;
+}
+);
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+}
+);
+properties = (
+{
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright (c) 2015–2018 mooniak (http://mooniak.com)  Copyright (c) 2016–2018 Janaka CB Attanayake (janakacb@gmail.com) ";
+}
+);
+},
+{
+key = descriptions;
+values = (
+{
+language = dflt;
+value = "NOT READY FOR PRODUCTION! A preview only. A font based on the typefaces by the Dutch Press in Ceylon. Read more mooniak.com/ceylon-dutch-press";
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Janaka CB Attanayake, Rajitha Manamperi";
+}
+);
+},
+{
+key = designerURL;
+value = "http://www.mooniak.com/";
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+}
+);
+},
+{
+key = licenseURL;
+value = "http://scripts.sil.org/OFL";
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = mooniak;
+}
+);
+},
+{
+key = manufacturerURL;
+value = "http://mooniak.com";
+},
+{
+key = uniqueID;
+value = "MNIK; galle; Version 0.060; DEV; alpha";
+},
+{
+key = vendorID;
+value = MNIK;
+},
+{
+key = versionString;
+value = "Version 0.080";
+}
+);
+settings = {
+disablesAutomaticAlignment = 1;
+disablesNiceNames = 1;
+};
+unitsPerEm = 1000;
+userData = {
+UFO.lib = {
+org.unifiedfontobject.normalizer.modTimes = "version: 0.3.3.dev0
+1535427681.0 fontinfo.plist
+1535428103.0 layercontents.plist
+1535427681.0 metainfo.plist";
+public.postscriptNames = {
+ArchaicEight = u111E8;
+ArchaicEighty = u111F1;
+ArchaicFifty = u111EE;
+ArchaicFive = u111E5;
+ArchaicForty = u111ED;
+ArchaicFour = u111E4;
+ArchaicHundred = u111F3;
+ArchaicNine = u111E9;
+ArchaicNinety = u111F2;
+ArchaicOne = u111E1;
+ArchaicSeven = u111E7;
+ArchaicSeventy = u111F0;
+ArchaicSix = u111E6;
+ArchaicSixty = u111EF;
+ArchaicTen = u111EA;
+ArchaicThirty = u111EC;
+ArchaicThousand = u111F4;
+ArchaicThree = u111E3;
+ArchaicTwenty = u111EB;
+ArchaicTwo = u111E2;
+LithEight = uni0DEE;
+LithFive = uni0DEB;
+LithFour = uni0DEA;
+LithNine = uni0DEF;
+LithOne = uni0DE7;
+LithSeven = uni0DED;
+LithSix = uni0DEC;
+LithThree = uni0DE9;
+LithTwo = uni0DE8;
+LithZero = uni0DE6;
+NULL = .null;
+"a-sinh" = uni0D85;
+"aa-sinh" = uni0D86;
+"aae-sinh" = uni0D88;
+"aaesign-sinh" = uni0DD1;
+"aasign-sinh" = uni0DCF;
+"ae-sinh" = uni0D87;
+"aesign-sinh" = uni0DD0;
+"ai-sinh" = uni0D93;
+"aisign-sinh" = uni0DDB;
+anusvara = uni0D82;
+"au-sinh" = uni0D96;
+"ausign-sinh" = uni0DDE;
+"ba-sinh" = uni0DB6;
+"bha-sinh" = uni0DB7;
+"ca-sinh" = uni0DA0;
+"cha-sinh" = uni0DA1;
+"da-sinh" = uni0DAF;
+"dda-sinh" = uni0DA9;
+"ddha-sinh" = uni0DAA;
+"dha-sinh" = uni0DB0;
+dottedcircle = uni25CC;
+"e-sinh" = uni0D91;
+"ee-sinh" = uni0D92;
+"eesign-sinh" = uni0DDA;
+"esign-sinh" = uni0DD9;
+"fa-sinh" = uni0DC6;
+"ga-sinh" = uni0D9C;
+"gha-sinh" = uni0D9D;
+"ha-sinh" = uni0DC4;
+"i-sinh" = uni0D89;
+"ii-sinh" = uni0D8A;
+"iisign-sinh" = uni0DD3;
+"isign-sinh" = uni0DD2;
+"ja-sinh" = uni0DA2;
+"jha-sinh" = uni0DA3;
+"jnya-sinh" = uni0DA5;
+"ka-sinh" = uni0D9A;
+"kha-sinh" = uni0D9B;
+kunddaliya.alt = uni0DF4;
+"la-sinh" = uni0DBD;
+"lla-sinh" = uni0DC5;
+"ma-sinh" = uni0DB8;
+"mba-sinh" = uni0DB9;
+"na-sinh" = uni0DB1;
+"nda-sinh" = uni0DB3;
+"nga-sinh" = uni0D9E;
+"nna-sinh" = uni0DAB;
+"nndda-sinh" = uni0DAC;
+"nnga-sinh" = uni0D9F;
+"nya-sinh" = uni0DA4;
+"nyja-sinh" = uni0DA6;
+"o-sinh" = uni0D94;
+"oo-sinh" = uni0D95;
+"oosign-sinh" = uni0DDD;
+"osign-sinh" = uni0DDC;
+"pa-sinh" = uni0DB4;
+"pha-sinh" = uni0DB5;
+"ra-sinh" = uni0DBB;
+"sa-sinh" = uni0DC3;
+"sha-sinh" = uni0DC1;
+"ssa-sinh" = uni0DC2;
+"ta-sinh" = uni0DAD;
+"tha-sinh" = uni0DAE;
+tmKa = uni0B95;
+tmTa = uni0BA4;
+"tta-sinh" = uni0DA7;
+"ttha-sinh" = uni0DA8;
+"u-sinh" = uni0D8B;
+"usign-sinh" = uni0DD4;
+"uu-sinh" = uni0D8C;
+"uusign-sinh" = uni0DD6;
+"va-sinh" = uni0DC0;
+"virama-sinh" = uni0DCA;
+visarga = uni0D83;
+"vocalicl-sinh" = uni0D8F;
+"vocalicll-sinh" = uni0D90;
+"vocalicllsign-sinh" = uni0DDF;
+"vocaliclsign-sinh" = uni0DF3;
+"vocalicr-sinh" = uni0D8D;
+"vocalicrr-sinh" = uni0D8E;
+"vocalicrrsign-sinh" = uni0DF2;
+"vocalicrsign-sinh" = uni0DD8;
+"ya-sinh" = uni0DBA;
+zerowidthjoiner = uni200D;
+zwnj = uni200C;
+};
+};
+UFOFormat = 3;
+};
+versionMajor = 0;
+versionMinor = 60;
+}

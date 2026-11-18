@@ -1,0 +1,19 @@
+{
+glyphname = "fU_repha-sinh";
+layers = (
+{
+layerId = "F0029E70-666A-46B3-82F3-BCA8DA6C0FED";
+shapes = (
+{
+pos = (105,0);
+ref = "repha-sinh";
+},
+{
+pos = (9,0);
+ref = "fU-sinh";
+}
+);
+width = 538;
+}
+);
+}

@@ -1,0 +1,19 @@
+{
+glyphname = "sRI-sinh";
+layers = (
+{
+layerId = "F0029E70-666A-46B3-82F3-BCA8DA6C0FED";
+shapes = (
+{
+pos = (200,0);
+ref = "rasign-sinh";
+},
+{
+pos = (21,0);
+ref = "sI-sinh";
+}
+);
+width = 539;
+}
+);
+}

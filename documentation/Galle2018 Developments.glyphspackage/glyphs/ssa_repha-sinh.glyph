@@ -1,0 +1,19 @@
+{
+glyphname = "ssa_repha-sinh";
+layers = (
+{
+layerId = "F0029E70-666A-46B3-82F3-BCA8DA6C0FED";
+shapes = (
+{
+pos = (100,0);
+ref = "repha-sinh";
+},
+{
+pos = (29,0);
+ref = "ssa-sinh";
+}
+);
+width = 494;
+}
+);
+}

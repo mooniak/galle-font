@@ -5,14 +5,14 @@ layers = (
 layerId = "F0029E70-666A-46B3-82F3-BCA8DA6C0FED";
 shapes = (
 {
-pos = (0,246);
+pos = (0,366);
 ref = period;
 },
 {
 ref = period;
 }
 );
-width = 109;
+width = 162;
 }
 );
 unicode = 58;

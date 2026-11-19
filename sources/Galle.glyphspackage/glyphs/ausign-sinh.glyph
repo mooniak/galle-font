@@ -6,15 +6,15 @@ layers = (
 layerId = "F0029E70-666A-46B3-82F3-BCA8DA6C0FED";
 shapes = (
 {
-pos = (-22,0);
+pos = (-33,0);
 ref = "esign-sinh";
 },
 {
-pos = (300,0);
+pos = (446,0);
 ref = "vocalicllsign-sinh";
 }
 );
-width = 572;
+width = 851;
 }
 );
 subCategory = Spacing;

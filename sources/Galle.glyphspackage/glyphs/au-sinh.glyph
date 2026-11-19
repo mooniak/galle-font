@@ -7,18 +7,18 @@ shapes = (
 {
 closed = 0;
 nodes = (
-(237,232,l)
+(353,345,l)
 );
 },
 {
 ref = "o-sinh";
 },
 {
-pos = (471,0);
+pos = (701,0);
 ref = "vocalicllsign-sinh";
 }
 );
-width = 744;
+width = 1107;
 }
 );
 unicode = 3478;

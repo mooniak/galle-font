@@ -9,11 +9,11 @@ shapes = (
 ref = "esign-sinh";
 },
 {
-pos = (307,0);
+pos = (457,0);
 ref = "esign-sinh";
 }
 );
-width = 614;
+width = 914;
 }
 );
 subCategory = Spacing;

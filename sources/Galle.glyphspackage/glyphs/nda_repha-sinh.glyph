@@ -5,15 +5,15 @@ layers = (
 layerId = "F0029E70-666A-46B3-82F3-BCA8DA6C0FED";
 shapes = (
 {
-pos = (90,0);
+pos = (134,0);
 ref = "repha-sinh";
 },
 {
-pos = (39,0);
+pos = (58,0);
 ref = "nda-sinh";
 }
 );
-width = 475;
+width = 707;
 }
 );
 }

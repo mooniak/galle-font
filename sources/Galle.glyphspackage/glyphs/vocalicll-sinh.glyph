@@ -8,11 +8,11 @@ shapes = (
 ref = "vocalicl-sinh";
 },
 {
-pos = (593,0);
+pos = (882,0);
 ref = "vocalicllsign-sinh";
 }
 );
-width = 858;
+width = 1277;
 }
 );
 unicode = 3472;

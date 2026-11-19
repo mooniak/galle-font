@@ -5,15 +5,15 @@ layers = (
 layerId = "F0029E70-666A-46B3-82F3-BCA8DA6C0FED";
 shapes = (
 {
-pos = (490,0);
+pos = (729,0);
 ref = "aaesign-sinh";
 },
 {
-pos = (12,0);
+pos = (18,0);
 ref = "a-sinh";
 }
 );
-width = 952;
+width = 1417;
 }
 );
 unicode = 3464;

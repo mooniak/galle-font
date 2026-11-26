@@ -106,13 +106,14 @@ def _parse_fontspector_md(md_path: Path) -> dict | None:
     for i, line in enumerate(lines):
         if "|" not in line:
             continue
-        up = line.upper()
-        if "PASS" in up and "FAIL" in up and "WARN" in up:
-            cells = [c.strip() for c in line.strip().strip("|").split("|")]
-            mapped = [next((s for s in SEVERITIES if s in c.upper()), None) for c in cells]
-            if any(mapped):
-                header_idx, keys = i, mapped
-                break
+        # The header row names only severities. fontspector drops the columns
+        # whose count is 0 (a clean report has no FAIL column), so match on shape,
+        # not on particular columns being present.
+        cells = [c.strip() for c in line.strip().strip("|").split("|")]
+        mapped = [next((s for s in SEVERITIES if s in c.upper()), None) for c in cells]
+        if sum(1 for m in mapped if m) >= 2 and all(m or not c for c, m in zip(cells, mapped)):
+            header_idx, keys = i, mapped
+            break
     if header_idx is None:
         return None
     for line in lines[header_idx + 1:]:
@@ -131,12 +132,17 @@ def _parse_fontspector_md(md_path: Path) -> dict | None:
     return None
 
 
-def _qa_status(repo: Path, profile: str = "googlefonts") -> dict:
-    """Read the fontspector report under out/ and reduce it to a verdict."""
-    hits = sorted((repo / "out").rglob("fontspector-report.md")) if (repo / "out").is_dir() else []
-    if not hits:
+def _qa_status(repo: Path) -> dict:
+    """Read the blocking fontspector report (out/fontspector/, the Mooniak profile)
+    and reduce it to a verdict. The googlefonts report some free fonts also write
+    (out/fontspector-googlefonts/) never decides the verdict. The profile comes from
+    the fontspector-profile.txt sidecar `make test` writes beside the report."""
+    report = repo / "out" / "fontspector" / "fontspector-report.md"
+    if not report.is_file():
         return {"available": False}
-    counts = _parse_fontspector_md(hits[0])
+    side = report.parent / "fontspector-profile.txt"
+    profile = (side.read_text(encoding="utf-8").strip() if side.is_file() else "") or None
+    counts = _parse_fontspector_md(report)
     if not counts:
         return {"available": False}
     total = sum(counts.get(s, 0) for s in SEVERITIES)

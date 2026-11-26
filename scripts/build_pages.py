@@ -209,6 +209,8 @@ def copy_reports(repo: Path, out: Path, web_only: bool = False) -> dict[str, str
     is converted to woff2 so the site never serves an installable font."""
     links = {}
     for src, name, entry in (("out/fontspector", "fontspector", "fontspector-report.html"),
+                             ("out/fontspector-googlefonts", "fontspector-googlefonts",
+                              "fontspector-report.html"),
                              ("out/proof", "diffenator", "diffenator2-report.html")):
         d = repo / src
         if d.is_dir():
@@ -353,8 +355,10 @@ def render_index(info: dict, fonts: list[Path], proofs: list[tuple[str, str]], r
     fonts_section = (f'<h2 id="fonts">Fonts</h2><table><tr><th>File</th><th>Size</th></tr>{ftab}</table>'
                      if downloads else "")
     plinks = [(f'proof/{quote(Path(p).name)}', f"Type proof — {n}") for n, p in proofs]
-    rlinks = [(href, label) for label, href in (("Fontspector QA report", reports.get("fontspector")),
-                                                 ("Diffenator report", reports.get("diffenator"))) if href]
+    rlinks = [(href, label) for label, href in (
+        ("Fontspector QA report (Mooniak profile)", reports.get("fontspector")),
+        ("Fontspector QA report (Google Fonts profile)", reports.get("fontspector-googlefonts")),
+        ("Diffenator report", reports.get("diffenator"))) if href]
     if repo:
         rlinks.append((f"https://github.com/{repo}", "Source repository"))
         if downloads:       # /releases lists the rolling canary pre-release and its font zips

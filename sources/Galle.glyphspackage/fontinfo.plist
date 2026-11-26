@@ -28,6 +28,10 @@ value = 0;
 {
 name = vendorID;
 value = MNIK;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 date = "2018-08-28 08:37:35 +0000";
@@ -663,6 +667,40 @@ fontMaster = (
 axesValues = (
 100,
 100
+);
+customParameters = (
+{
+name = typoAscender;
+value = 926;
+},
+{
+name = typoDescender;
+value = -274;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 926;
+},
+{
+name = hheaDescender;
+value = -274;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1167;
+},
+{
+name = winDescent;
+value = 496;
+}
 );
 id = "F0029E70-666A-46B3-82F3-BCA8DA6C0FED";
 metricValues = (
@@ -1586,7 +1624,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright (c) 2015–2018 mooniak (http://mooniak.com)  Copyright (c) 2016–2018 Janaka CB Attanayake (janakacb@gmail.com) ";
+value = "Copyright (c) 2015–2018 mooniak (http://mooniak.com) Copyright (c) 2016–2018 Janaka CB Attanayake (janakacb@gmail.com)";
 }
 );
 },
